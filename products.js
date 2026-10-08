@@ -10,7 +10,7 @@
 const products = [
   {
     id: 1,
-    name: 'Vaso Orbital', categories: ['Casa', 'Decoração'],
+    name: 'Vaso Orbital', categories: ['Geek'],
     description: 'Vaso escultural com curvas orgânicas para plantas pequenas e grandes ideias.',
     color: '#d96b3d', icon: 'bi-flower1', images: [],
     prices: { whatsapp: 'R$ 49', mercadoLivre: 'R$ 54', shopee: 'R$ 56' },
