@@ -11,16 +11,16 @@ const products = [
     id: 2,
     name: 'Chaveiro Decepticon', categories: ['Geek', 'Chaveiro', 'Transformers'],
     description: 'Pingente dos Decepticons, com design marcante inspirado no universo Transformers, ideal para fãs e colecionadores. Dimensões: 0,6 × 3,5 × 3,7 cm.',
-    color: '#829b84', icon: 'bi-headphones', images: [],
+    color: '#829b84', icon: 'bi-headphones', images: ['https://media.printables.com/media/prints/9fb286f9-201a-4180-ba5c-612d8c30cc10/images/9910888_9be79367-939d-4ed2-8ebf-01d114382725_d664a013-875a-42fd-87dc-3e02261321df/thumbs/inside/1280x960/jpeg/img_2100.webp','https://media.printables.com/media/prints/f16a5916-bddf-4124-b6e6-abd2d87e138b/images/9910913_79e12053-fead-4e86-aa2e-6968ffd09316_c9ccffc8-9714-4c02-9366-52ca2bf5c1bf/thumbs/inside/1280x960/png/chatgpt-image-31-mai-2025-13_20_04.webp'],
     prices: { whatsapp: 'R$ 3', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
     id: 3,
-    name: 'Porta-incenso Arco', categories: ['Casa', 'Bem-estar'],
-    description: 'Uma pequena peça de presença marcante para seus momentos de pausa.',
-    color: '#e0a15c', icon: 'bi-stars', images: [],
-    prices: { whatsapp: 'R$ 35', mercadoLivre: 'R$ 40', shopee: 'R$ 42' },
+    name: 'Painel Imperial', categories: ['Geek', 'Star Wars', 'Quadro', 'Decoração'],
+    description: 'Painel Imperial, exibindo a frase "MAY THE FOURTH BE WITH YOU"(QUE A QUARTA ESTEJA COM VOCÊ) em Aurebesh.. Dimensões: 18 × 0,5 × 20 cm.',
+    color: '#e0a15c', icon: 'bi-stars', images: ['https://media.printables.com/media/prints/470168/images/3852464_d7699839-ce95-400e-9554-189561c81bc4/thumbs/inside/1280x960/png/jedi_may4th_2023-may-04_05-12-36pm-000_customizedview10587824148.webp'],
+    prices: { whatsapp: 'R$ 26', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
