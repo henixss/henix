@@ -1,19 +1,10 @@
-/*
-  COMO ADICIONAR UMA PEÇA:
-  1. Copie um bloco abaixo.
-  2. Use categories com uma ou várias categorias.
-  3. Use images com um ou vários links de fotos.
-  4. Em prices, informe um preço para cada canal.
-  5. Em links, cole o link direto do anúncio do Mercado Livre e da Shopee.
-  6. Deixe price ou url vazio para esconder aquela opção de compra.
-*/
 const products = [
   {
     id: 1,
-    name: 'Vaso Orbital', categories: ['Geek'],
-    description: 'Vaso escultural com curvas orgânicas para plantas pequenas e grandes ideias.',
-    color: '#d96b3d', icon: 'bi-flower1', images: [],
-    prices: { whatsapp: 'R$ 49', mercadoLivre: 'R$ 54', shopee: 'R$ 56' },
+    name: 'Hatsune Miku Lego', categories: ['Geek','Hatsune Miku'],
+    description: 'Miniatura da Hatsune Miku em versão chibi, com visual icônico e detalhes encantadores para decorar sua coleção. Dimensões: 10,73 × 4,76 × 10,09 cm.',
+    color: '#d96b3d', icon: 'bi-flower1', images: ['https://media.printables.com/media/prints/821d0207-40c2-4291-af6a-fe7dedd26b30/images/10877382_e524683e-302e-4c02-81c8-36b8a08f82a6_addf9d46-2e0f-46eb-b98a-c5374910de4e/thumbs/inside/1280x960/png/hm.webp',''],
+    prices: { whatsapp: 'R$ 23', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
