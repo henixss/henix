@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     name: 'Painel Imperial', categories: ['Geek', 'Star Wars', 'Quadro', 'Decoração'],
-    description: 'Painel Imperial, exibindo a frase "MAY THE FOURTH BE WITH YOU"(QUE A QUARTA ESTEJA COM VOCÊ) em Aurebesh.. Dimensões: 18 × 0,5 × 20 cm.',
+    description: 'Painel Imperial, exibindo a frase "MAY THE FOURTH BE WITH YOU"(QUE A QUARTA ESTEJA COM VOCÊ) em Aurebesh. Dimensões: 18 × 0,5 × 20 cm.',
     color: '#e0a15c', icon: 'bi-stars', images: ['https://media.printables.com/media/prints/470168/images/3852464_d7699839-ce95-400e-9554-189561c81bc4/thumbs/inside/1280x960/png/jedi_may4th_2023-may-04_05-12-36pm-000_customizedview10587824148.webp'],
     prices: { whatsapp: 'R$ 26', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
@@ -26,17 +26,17 @@ const products = [
   {
     id: 4,
     name: 'Pingente Programação Python', categories: ['Geek', 'Chaveiro', 'Pingente'],
-    description: 'Pingente do logo Python em duas cores, ideal para programadores e entusiastas da tecnologia. Dimensões estimadas: 5 × 4,5 cm.',
+    description: 'Pingente do logo Python em duas cores, ideal para programadores e entusiastas da tecnologia. Dimensões: 5 × 4,5 cm.',
     color: '#9b7bb0', icon: 'bi-rocket-takeoff', images: ['https://media.printables.com/media/prints/831780/images/6411576_071a7221-d8a6-445d-973e-242a9572a660_cfb4841f-d912-463c-a03b-0dee1daeb779/thumbs/inside/1280x960/png/screenshot-from-2024-04-04-09-40-59.webp','https://media.printables.com/media/prints/831780/images/6411527_0cde4f1c-2472-45d7-a7d7-41d17237b257_0db79d34-a9ba-48e6-af77-73cc144091bb/thumbs/inside/1280x960/jpg/img_20240404_081106.webp'],
     prices: { whatsapp: 'R$ 3', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
     id: 5,
-    name: 'Organizador Grid', categories: ['Organização', 'Escritório'],
-    description: 'Módulos que se adaptam à sua mesa e deixam o essencial sempre à mão.',
-    color: '#5d8ca5', icon: 'bi-grid-3x3-gap', images: [],
-    prices: { whatsapp: 'R$ 42', mercadoLivre: 'R$ 47', shopee: 'R$ 49' },
+    name: 'Caixa Para Dados RPG', categories: ['RPG', 'Geek', 'Jogos de Tabuleiro', 'Acessórios'],
+    description: 'Caixa para dados de RPG, ideal para guardar e organizar seus dados com praticidade e estilo durante suas aventuras. Dimensões: 9 × 7 × 2 cm.',
+    color: '#5d8ca5', icon: 'bi-grid-3x3-gap', images: ['https://media.printables.com/media/prints/616127/images/4889981_16a837ea-e8f5-40ac-9af7-e11cfa9b4bbb_d1794cfc-799a-468f-b6dc-5c9f6e0b4b48/tempimageblk7gf.gif'],
+    prices: { whatsapp: 'R$ 18', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
@@ -44,7 +44,7 @@ const products = [
     name: 'Cachepô Pétala', categories: ['Presentes', 'Casa', 'Decoração'],
     description: 'Textura delicada e design leve para presentear com mais significado.',
     color: '#d17d92', icon: 'bi-heart', images: [],
-    prices: { whatsapp: 'R$ 45', mercadoLivre: 'R$ 50', shopee: 'R$ 52' },
+    prices: { whatsapp: 'R$ 45', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   }
 ];
