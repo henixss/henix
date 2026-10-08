@@ -12,7 +12,7 @@ const products = [
     name: 'Vaso Orbital', category: 'Casa',
     description: 'Vaso escultural com curvas orgânicas para plantas pequenas e grandes ideias.',
     color: '#d96b3d', icon: 'bi-flower1', image: '',
-    prices: { whatsapp: 'R$ 49', mercadoLivre: 'R$ 54', shopee: 'R$ 56' },
+    prices: { whatsapp: 'R$ 49', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
