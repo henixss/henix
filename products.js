@@ -9,9 +9,9 @@
 const products = [
   {
     id: 1,
-    name: 'Vaso Orbital', category: 'Casa',
+    name: 'Hatsune Miku Lego', category: 'Geek',
     description: 'Vaso escultural com curvas orgânicas para plantas pequenas e grandes ideias.',
-    color: '#d96b3d', icon: 'bi-flower1', image: '',
+    color: '#d96b3d', icon: 'bi-flower1', image: 'https://media.printables.com/media/prints/821d0207-40c2-4291-af6a-fe7dedd26b30/images/10877382_e524683e-302e-4c02-81c8-36b8a08f82a6_addf9d46-2e0f-46eb-b98a-c5374910de4e/thumbs/inside/1280x960/png/hm.webp',
     prices: { whatsapp: 'R$ 49', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
