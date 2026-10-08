@@ -4,26 +4,36 @@ Catálogo estático feito com HTML, CSS, JavaScript e Bootstrap 5, pronto para p
 
 ## Adicionar ou editar produtos
 
-Abra `products.js` e copie um item existente. Altere `name`, `category`, `description`, `color`, `icon` e `image` conforme o produto. Para os preços, preencha o objeto `prices`:
+Abra `products.js` e copie um item existente. Use `categories` para cadastrar uma ou várias categorias e `images` para cadastrar uma ou várias fotos:
 
 ```javascript
-prices: {
-  whatsapp: 'R$ 49',
-  mercadoLivre: 'R$ 54',
-  shopee: 'R$ 56'
+{
+  id: 7,
+  name: 'Dragão Articulado',
+  categories: ['Presentes', 'Colecionáveis', 'Decoração'],
+  description: 'Dragão articulado impresso em 3D.',
+  color: '#6d5cae',
+  icon: 'bi-stars',
+  images: [
+    'https://seu-site.com/fotos/dragao-frente.jpg',
+    'https://seu-site.com/fotos/dragao-lado.jpg',
+    'https://seu-site.com/fotos/dragao-detalhe.jpg'
+  ],
+  prices: {
+    whatsapp: 'R$ 79',
+    mercadoLivre: 'R$ 84',
+    shopee: 'R$ 86'
+  },
+  links: {
+    mercadoLivre: 'https://produto.mercadolivre.com.br/SEU-ANUNCIO',
+    shopee: 'https://shopee.com.br/SEU-ANUNCIO'
+  }
 }
 ```
 
-O preço do WhatsApp usa automaticamente o número da HENIX. Para os outros canais, cole os links diretos dos anúncios:
+No catálogo, o primeiro item de `images` aparece no card. Ao abrir o produto, as outras imagens aparecem como miniaturas clicáveis. Os filtros são criados automaticamente com base em todas as categorias usadas nos produtos.
 
-```javascript
-links: {
-  mercadoLivre: 'https://produto.mercadolivre.com.br/SEU-ANUNCIO',
-  shopee: 'https://shopee.com.br/SEU-ANUNCIO'
-}
-```
-
-Se o preço ou o link ficar vazio, a opção correspondente não aparece como botão de compra. A logo está em `assets/henix-logo.png` e o favicon em `assets/favicon.png`.
+O preço do WhatsApp usa automaticamente o número da HENIX. Se o preço ou o link de um canal ficar vazio, a opção correspondente não aparece como botão de compra. A logo está em `assets/henix-logo.png` e o favicon em `assets/favicon.png`.
 
 ## Publicar no GitHub Pages
 

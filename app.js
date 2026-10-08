@@ -2,50 +2,63 @@ const WHATSAPP = '5522998367881';
 const grid = document.querySelector('#productGrid');
 const emptyState = document.querySelector('#emptyState');
 const searchInput = document.querySelector('#searchInput');
+const filterWrap = document.querySelector('.filter-wrap');
 const modal = new bootstrap.Modal(document.querySelector('#productModal'));
 let currentFilter = 'Todos';
 
-function whatsappLink(product) {
-  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Oi! Tenho interesse na peça ${product.name}.`)}`;
+function categoriesOf(product) { return Array.isArray(product.categories) ? product.categories : [product.category].filter(Boolean); }
+function imagesOf(product) { if (Array.isArray(product.images)) return product.images.filter(Boolean); return product.image ? [product.image] : []; }
+function whatsappLink(product) { return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Oi! Tenho interesse na peça ${product.name}.`)}`; }
+
+function renderFilters() {
+  const categories = [...new Set(products.flatMap(categoriesOf))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+  filterWrap.innerHTML = ['Todos', ...categories].map(category => `<button class="filter-btn ${category === currentFilter ? 'active' : ''}" data-filter="${category}">${category}</button>`).join('');
+  filterWrap.querySelectorAll('.filter-btn').forEach(button => button.addEventListener('click', () => { currentFilter = button.dataset.filter; renderFilters(); render(); }));
 }
 
 function productCard(product) {
-  const visual = product.image ? `<img src="${product.image}" alt="${product.name}" loading="lazy">` : `<div class="product-art" style="--art-color:${product.color}"><i class="bi ${product.icon}"></i><span>HENIX</span></div>`;
+  const categories = categoriesOf(product);
+  const images = imagesOf(product);
+  const visual = images.length ? `<img src="${images[0]}" alt="${product.name}" loading="lazy">` : `<div class="product-art" style="--art-color:${product.color}"><i class="bi ${product.icon}"></i><span>HENIX</span></div>`;
   const prices = Object.values(product.prices || {}).filter(Boolean).length;
-  return `<div class="col-sm-6 col-lg-4"><article class="product-card" tabindex="0" data-id="${product.id}" role="button" aria-label="Ver detalhes de ${product.name}"><div class="card-visual">${visual}<span class="category-tag">${product.category}</span><span class="view-icon"><i class="bi bi-arrow-up-right"></i></span></div><div class="card-copy"><div><h3>${product.name}</h3><p>${product.description}</p></div><strong>${prices} ${prices === 1 ? 'opção' : 'opções'} de compra</strong></div></article></div>`;
+  return `<div class="col-sm-6 col-lg-4"><article class="product-card" tabindex="0" data-id="${product.id}" role="button" aria-label="Ver detalhes de ${product.name}"><div class="card-visual">${visual}<span class="category-tag">${categories.join(' · ')}</span>${images.length > 1 ? `<span class="photo-count"><i class="bi bi-images"></i> ${images.length}</span>` : ''}<span class="view-icon"><i class="bi bi-arrow-up-right"></i></span></div><div class="card-copy"><div><h3>${product.name}</h3><p>${product.description}</p></div><strong>${prices} ${prices === 1 ? 'opção' : 'opções'} de compra</strong></div></article></div>`;
 }
 
 function render() {
   const term = searchInput.value.toLowerCase().trim();
-  const filtered = products.filter(p => (currentFilter === 'Todos' || p.category === currentFilter) && (`${p.name} ${p.description} ${p.category}`).toLowerCase().includes(term));
+  const filtered = products.filter(p => { const categories = categoriesOf(p); return (currentFilter === 'Todos' || categories.includes(currentFilter)) && (`${p.name} ${p.description} ${categories.join(' ')}`).toLowerCase().includes(term); });
   grid.innerHTML = filtered.map(productCard).join('');
   emptyState.classList.toggle('d-none', filtered.length > 0);
   document.querySelectorAll('.product-card').forEach(card => { card.addEventListener('click', () => openProduct(Number(card.dataset.id))); card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openProduct(Number(card.dataset.id)); } }); });
 }
 
-function purchaseOption(label, icon, price, href, enabled = true) {
+function purchaseOption(label, icon, price, href) {
   if (!price) return '';
-  const action = enabled && href ? `<a class="purchase-button" href="${href}" target="_blank" rel="noopener">Comprar <i class="bi bi-arrow-up-right"></i></a>` : '<span class="purchase-pending">Link em breve</span>';
+  const action = href ? `<a class="purchase-button" href="${href}" target="_blank" rel="noopener">Comprar <i class="bi bi-arrow-up-right"></i></a>` : '<span class="purchase-pending">Link em breve</span>';
   return `<div class="purchase-option"><div class="purchase-channel"><i class="bi ${icon}"></i><span>${label}</span></div><strong>${price}</strong>${action}</div>`;
+}
+
+function renderGallery(product) {
+  const images = imagesOf(product);
+  const art = document.querySelector('#modalArt');
+  art.style.setProperty('--art-color', product.color);
+  if (!images.length) { art.innerHTML = `<i class="bi ${product.icon}"></i>`; return; }
+  art.innerHTML = `<div class="gallery-main"><img id="galleryMainImage" src="${images[0]}" alt="${product.name} — foto 1"></div>${images.length > 1 ? `<div class="gallery-thumbs">${images.map((image, index) => `<button class="gallery-thumb ${index === 0 ? 'active' : ''}" type="button" data-image="${image}" data-index="${index}" aria-label="Ver foto ${index + 1}"><img src="${image}" alt=""></button>`).join('')}</div>` : ''}`;
+  art.querySelectorAll('.gallery-thumb').forEach(button => button.addEventListener('click', () => { art.querySelector('#galleryMainImage').src = button.dataset.image; art.querySelector('#galleryMainImage').alt = `${product.name} — foto ${Number(button.dataset.index) + 1}`; art.querySelectorAll('.gallery-thumb').forEach(item => item.classList.remove('active')); button.classList.add('active'); }));
 }
 
 function openProduct(id) {
   const p = products.find(product => product.id === id);
   const prices = p.prices || {};
   const links = p.links || {};
-  document.querySelector('#modalCategory').textContent = `/ ${p.category}`;
+  document.querySelector('#modalCategory').textContent = `/ ${categoriesOf(p).join(' · ')}`;
   document.querySelector('#productModalLabel').textContent = p.name;
   document.querySelector('#modalDescription').textContent = p.description;
-  document.querySelector('#modalArt').style.setProperty('--art-color', p.color);
-  document.querySelector('#modalArt').innerHTML = p.image ? `<img src="${p.image}" alt="${p.name}">` : `<i class="bi ${p.icon}"></i>`;
-  document.querySelector('#purchaseOptions').innerHTML = [
-    purchaseOption('WhatsApp', 'bi-whatsapp', prices.whatsapp, whatsappLink(p)),
-    purchaseOption('Mercado Livre', 'bi-bag', prices.mercadoLivre, links.mercadoLivre),
-    purchaseOption('Shopee', 'bi-shop', prices.shopee, links.shopee)
-  ].join('');
+  renderGallery(p);
+  document.querySelector('#purchaseOptions').innerHTML = [purchaseOption('WhatsApp', 'bi-whatsapp', prices.whatsapp, whatsappLink(p)), purchaseOption('Mercado Livre', 'bi-bag', prices.mercadoLivre, links.mercadoLivre), purchaseOption('Shopee', 'bi-shop', prices.shopee, links.shopee)].join('');
   modal.show();
 }
 
-document.querySelectorAll('.filter-btn').forEach(button => button.addEventListener('click', () => { currentFilter = button.dataset.filter; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); button.classList.add('active'); render(); }));
 searchInput.addEventListener('input', render);
+renderFilters();
 render();
