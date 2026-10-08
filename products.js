@@ -9,10 +9,10 @@ const products = [
   },
   {
     id: 2,
-    name: 'Suporte Loop', categories: ['Organização', 'Escritório'],
-    description: 'Suporte minimalista para fones, cabos e tudo aquilo que merece seu lugar.',
+    name: 'Chaveiro Decepticon', categories: ['Geek', 'Chaveiro', 'Transformers'],
+    description: 'Pingente dos Decepticons, com design marcante inspirado no universo Transformers, ideal para fãs e colecionadores. Dimensões: 0,6 × 3,5 × 3,7 cm.',
     color: '#829b84', icon: 'bi-headphones', images: [],
-    prices: { whatsapp: 'R$ 29', mercadoLivre: 'R$ 34', shopee: 'R$ 36' },
+    prices: { whatsapp: 'R$ 3', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
