@@ -41,10 +41,314 @@ const products = [
   },
   {
     id: 6,
-    name: 'Cachepô Pétala', categories: ['Presentes', 'Casa', 'Decoração'],
-    description: 'Textura delicada e design leve para presentear com mais significado.',
-    color: '#d17d92', icon: 'bi-heart', images: [],
-    prices: { whatsapp: 'R$ 45', mercadoLivre: '', shopee: '' },
+    name: "Simple Triforce Zelda", categories: ["Geek", "Zelda", "Decoração"],
+    description: "Peça decorativa inspirada no universo de Zelda.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 7,
+    name: "DeLorean Time Travel Car", categories: ["Geek", "Filmes", "Decoração", "Miniaturas"],
+    description: "Miniatura inspirada no carro de viagem no tempo.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 8,
+    name: "Base para Cubo Mágico Estilo Grego", categories: ["Geek", "Jogos", "Decoração"],
+    description: "Base decorativa para cubo mágico com estilo arquitetônico grego.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 9,
+    name: "Emblema VW Decepticon", categories: ["Geek", "Transformers", "Automotivo", "Decoração"],
+    description: "Emblema decorativo inspirado no universo Transformers e na Volkswagen.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 10,
+    name: "Arma Portal do Rick", categories: ["Geek", "Rick and Morty", "Decoração", "Cosplay"],
+    description: "Peça inspirada na arma portal do universo Rick and Morty.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 11,
+    name: "Suporte de Livros Pilar Grego", categories: ["Casa", "Decoração", "Organização"],
+    description: "Suporte de livros com visual inspirado em um pilar grego.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 12,
+    name: "BMO Adventure Time", categories: ["Geek", "Adventure Time", "Decoração", "Colecionáveis"],
+    description: "Peça decorativa inspirada no personagem BMO de Adventure Time.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 13,
+    name: "Batarang", categories: ["Geek", "Batman", "Cosplay", "Decoração"],
+    description: "Batarang inspirado no universo Batman.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 14,
+    name: "Chaveiro Circuito Eletrônico", categories: ["Geek", "Chaveiro", "Tecnologia", "Pingente"],
+    description: "Chaveiro com visual de circuito eletrônico.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 15,
+    name: "Chaveiro EVA 01 Evangelion", categories: ["Geek", "Evangelion", "Chaveiro", "Anime"],
+    description: "Chaveiro inspirado no EVA 01 de Neon Genesis Evangelion.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 16,
+    name: "Kit Porta-copos Batman", categories: ["Geek", "Batman", "Casa", "Decoração"],
+    description: "Conjunto de porta-copos inspirado no universo Batman.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 17,
+    name: "Poções Minecraft", categories: ["Geek", "Minecraft", "Decoração", "Colecionáveis"],
+    description: "Miniaturas de poções inspiradas em Minecraft.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 18,
+    name: "Eevee Low-Poly", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
+    description: "Miniatura low-poly inspirada no Pokémon Eevee.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 19,
+    name: "Quadro Anime Ranma 1/2", categories: ["Geek", "Anime", "Quadro", "Decoração"],
+    description: "Quadro decorativo inspirado no anime Ranma 1/2.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 20,
+    name: "Acessórios de Cabelo Anime", categories: ["Geek", "Anime", "Acessórios", "Moda"],
+    description: "Acessórios de cabelo com inspiração em anime.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 21,
+    name: "Presilhas Mina Ashiro Kaiju Nº 8", categories: ["Geek", "Anime", "Acessórios", "Cosplay"],
+    description: "Presilhas inspiradas na personagem Mina Ashiro de Kaiju Nº 8.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 22,
+    name: "Molde de Bombas de Banho Gato Anime", categories: ["Casa", "Anime", "Acessórios"],
+    description: "Molde híbrido de gato com inspiração em anime.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 23,
+    name: "Pingente Sailor Moon Space-Time Key", categories: ["Geek", "Sailor Moon", "Anime", "Pingente"],
+    description: "Pingente inspirado na chave do espaço-tempo de Sailor Moon.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 24,
+    name: "Quadro Totoro", categories: ["Geek", "Studio Ghibli", "Anime", "Quadro", "Decoração"],
+    description: "Quadro decorativo inspirado em Totoro.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 25,
+    name: "Garota Anime com Suporte", categories: ["Geek", "Anime", "Decoração", "Colecionáveis"],
+    description: "Miniatura de personagem anime com opção de suporte.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 26,
+    name: "Marcador de Página Naruto", categories: ["Geek", "Naruto", "Anime", "Acessórios"],
+    description: "Marcador de página inspirado em Naruto.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 27,
+    name: "Símbolo de Raiva Anime", categories: ["Geek", "Anime", "Decoração"],
+    description: "Símbolo decorativo inspirado na linguagem visual dos animes.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 28,
+    name: "Suguru Geto Jujutsu Kaisen", categories: ["Geek", "Jujutsu Kaisen", "Anime", "Colecionáveis"],
+    description: "Peça inspirada no personagem Suguru Geto de Jujutsu Kaisen.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 29,
+    name: "Pingente Sailor Moon", categories: ["Geek", "Sailor Moon", "Anime", "Pingente"],
+    description: "Pingente inspirado no universo Sailor Moon.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 30,
+    name: "Chaveiro Kuromi", categories: ["Geek", "Sanrio", "Anime", "Chaveiro"],
+    description: "Chaveiro da Kuromi com troca fácil de filamento.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 31,
+    name: "Brinco Kaonashi", categories: ["Geek", "Studio Ghibli", "Anime", "Acessórios"],
+    description: "Brinco inspirado no personagem Kaonashi.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 32,
+    name: "Peça de Cabelo Skull and Sword Nelliel", categories: ["Geek", "Bleach", "Anime", "Cosplay"],
+    description: "Peça de cabelo inspirada na máscara de Nelliel de Bleach.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 33,
+    name: "Suporte para Espada Sting", categories: ["Geek", "Senhor dos Anéis", "Decoração", "Organização"],
+    description: "Suporte decorativo para a espada Sting.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 34,
+    name: "Decoração Hunter x Hunter", categories: ["Geek", "Hunter x Hunter", "Anime", "Decoração"],
+    description: "Peça decorativa inspirada em Hunter x Hunter.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 35,
+    name: "Kit Kunai", categories: ["Geek", "Naruto", "Anime", "Cosplay"],
+    description: "Kit de kunais inspirado em Naruto.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 36,
+    name: "Eeveevolutions Kanto", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
+    description: "Conjunto com Eevee e evoluções da região de Kanto.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 37,
+    name: "Pokébola", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
+    description: "Pokébola decorativa inspirada no universo Pokémon.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 38,
+    name: "Batarang Dobrável Batman", categories: ["Geek", "Batman", "Cosplay", "Decoração"],
+    description: "Batarang dobrável inspirado em Batman Arkham Knight.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 39,
+    name: "Pokébola Decorativa", categories: ["Geek", "Pokémon", "Decoração"],
+    description: "Peça decorativa em formato de Pokébola.",
+    color: "#e0a15c", icon: "bi-image", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 40,
+    name: "Máscara Sub-Zero Fortnite", categories: ["Geek", "Fortnite", "Cosplay", "Acessórios"],
+    description: "Máscara inspirada no personagem Sub-Zero.",
+    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 41,
+    name: "Decoração Como Treinar o Seu Dragão", categories: ["Geek", "Filmes", "Decoração", "Colecionáveis"],
+    description: "Peça decorativa inspirada em Como Treinar o Seu Dragão.",
+    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 42,
+    name: "Crânio Cubone Pokémon", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
+    description: "Peça decorativa inspirada no crânio do Pokémon Cubone.",
+    color: "#d17d92", icon: "bi-controller", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 43,
+    name: "Máscara Sakai Ghost of Tsushima", categories: ["Geek", "Games", "Cosplay", "Acessórios"],
+    description: "Máscara inspirada no clã Sakai de Ghost of Tsushima.",
+    color: "#d96b3d", icon: "bi-stars", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
+  {
+    id: 44,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon.",
+    color: "#829b84", icon: "bi-key", images: [],
+    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   }
 ];
