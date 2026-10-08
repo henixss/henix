@@ -9,7 +9,7 @@ const products = [
   },
   {
     id: 2,
-    name: 'Chaveiro Decepticon', categories: ['Geek', 'Chaveiro', 'Transformers'],
+    name: 'Chaveiro Decepticon', categories: ['Geek', 'Chaveiro', 'Pingente', 'Transformers'],
     description: 'Pingente dos Decepticons, com design marcante inspirado no universo Transformers, ideal para fãs e colecionadores. Dimensões: 0,6 × 3,5 × 3,7 cm.',
     color: '#829b84', icon: 'bi-headphones', images: ['https://media.printables.com/media/prints/9fb286f9-201a-4180-ba5c-612d8c30cc10/images/9910888_9be79367-939d-4ed2-8ebf-01d114382725_d664a013-875a-42fd-87dc-3e02261321df/thumbs/inside/1280x960/jpeg/img_2100.webp','https://media.printables.com/media/prints/f16a5916-bddf-4124-b6e6-abd2d87e138b/images/9910913_79e12053-fead-4e86-aa2e-6968ffd09316_c9ccffc8-9714-4c02-9366-52ca2bf5c1bf/thumbs/inside/1280x960/png/chatgpt-image-31-mai-2025-13_20_04.webp'],
     prices: { whatsapp: 'R$ 3', mercadoLivre: '', shopee: '' },
@@ -25,10 +25,10 @@ const products = [
   },
   {
     id: 4,
-    name: 'Miniatura Astro', categories: ['Presentes', 'Colecionáveis'],
-    description: 'Um presente divertido para quem coleciona histórias e objetos únicos.',
-    color: '#9b7bb0', icon: 'bi-rocket-takeoff', images: [],
-    prices: { whatsapp: 'R$ 39', mercadoLivre: 'R$ 44', shopee: 'R$ 46' },
+    name: 'Pingente Programação Python', categories: ['Geek', 'Chaveiro', 'Pingente'],
+    description: 'Pingente do logo Python em duas cores, ideal para programadores e entusiastas da tecnologia. Dimensões estimadas: 5 × 4,5 cm.',
+    color: '#9b7bb0', icon: 'bi-rocket-takeoff', images: ['https://media.printables.com/media/prints/831780/images/6411576_071a7221-d8a6-445d-973e-242a9572a660_cfb4841f-d912-463c-a03b-0dee1daeb779/thumbs/inside/1280x960/png/screenshot-from-2024-04-04-09-40-59.webp','https://media.printables.com/media/prints/831780/images/6411527_0cde4f1c-2472-45d7-a7d7-41d17237b257_0db79d34-a9ba-48e6-af77-73cc144091bb/thumbs/inside/1280x960/jpg/img_20240404_081106.webp'],
+    prices: { whatsapp: 'R$ 3', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
