@@ -91,7 +91,7 @@ const products = [
     id: 12,
     name: "BMO Adventure Time", categories: ["Geek", "Adventure Time", "Decoração", "Colecionáveis"],
     description: "Peça decorativa inspirada no personagem BMO de Adventure Time.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/4988b8bc-59f6-4a1c-bd50-3ba80cb96d46/images/11428024_8d538a31-f2b2-4181-9f05-08ccd7060a47_24583442-c1f6-40bc-925b-2d96f2991d40/thumbs/inside/1280x960/webp/bmo.webp', 'https://media.printables.com/media/prints/07c090d3-67ee-480d-9b9b-8471b5b443cd/images/11428026_785d56f3-dbbe-4261-8fac-6e2aab4d05cb_09c4b47d-8dae-486b-8894-2fd5f40755bb/thumbs/inside/1280x960/webp/bmo-photo.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -99,7 +99,7 @@ const products = [
     id: 13,
     name: "Batarang", categories: ["Geek", "Batman", "Cosplay", "Decoração"],
     description: "Batarang inspirado no universo Batman.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/84071af9-e8bd-4760-8077-81694c41b7f8/images/10710436_5413bea5-d7fe-4d1e-bac7-0de5da3125b0_a69c7d2b-4cbf-4599-b4bf-b5937d60a3a5/thumbs/inside/1280x960/png/model.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -107,7 +107,7 @@ const products = [
     id: 14,
     name: "Chaveiro Circuito Eletrônico", categories: ["Geek", "Chaveiro", "Tecnologia", "Pingente"],
     description: "Chaveiro com visual de circuito eletrônico.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/d16de03a-d499-4e98-b6cb-53b80d9f0b0f/images/9613840_61d5f09b-35a4-4725-a912-d411c87621f6_e12c8d29-a587-4f4d-99aa-c2b6b49564a5/thumbs/cover/320x240/png/skjermbilde-2025-04-27-122347.webp', 'https://media.printables.com/media/comment_images/3a/948ec4-a7d1-4b6a-862c-daadbaaa287a/thumbs/outside/320x240/jpg/20250519_203917.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -115,7 +115,7 @@ const products = [
     id: 15,
     name: "Chaveiro EVA 01 Evangelion", categories: ["Geek", "Evangelion", "Chaveiro", "Anime"],
     description: "Chaveiro inspirado no EVA 01 de Neon Genesis Evangelion.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#e0a15c", icon: "bi-image", images: ['https://media.printables.com/media/prints/1103661/images/8341720_418a8ce4-005b-4e14-a4bb-e3c09ff86a54_85f105ca-9c69-4ded-b578-8e31ccfaa860/thumbs/inside/1280x960/jpg/img_4129.webp', 'https://media.printables.com/media/comment_images/82/2f8c1c-1c01-44f9-b8d9-fccdaf99dfbe/thumbs/outside/320x240/jpg/eva-keychains.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
