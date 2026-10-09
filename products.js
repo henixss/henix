@@ -43,7 +43,7 @@ const products = [
     id: 6,
     name: "Simple Triforce Zelda", categories: ["Geek", "Zelda", "Decoração"],
     description: "Peça decorativa inspirada no universo de Zelda.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/415707/images/3449181_9e2abecb-e7c7-43c0-bcdd-86eed26c1c6e/thumbs/inside/1280x960/png/simple-triforce-with-godess-symbols-from-zelda.webp', 'https://media.printables.com/media/comment_images/b0/b1d3f3-5337-4a1d-8dc4-e3cc1362dc64/thumbs/outside/320x240/jpg/20231201_221045.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -51,7 +51,7 @@ const products = [
     id: 7,
     name: "DeLorean Time Travel Car", categories: ["Geek", "Filmes", "Decoração", "Miniaturas"],
     description: "Miniatura inspirada no carro de viagem no tempo.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/ed101061-7385-4007-9066-8d0d5324fb3f/images/11218471_9450cd8a-50d0-4425-ab7d-dd880bd4e399_aa7e87b6-9d88-4d2e-99bb-00dbf5bb603e/thumbs/inside/1280x960/png/game-over15.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -59,7 +59,7 @@ const products = [
     id: 8,
     name: "Base para Cubo Mágico Estilo Grego", categories: ["Geek", "Jogos", "Decoração"],
     description: "Base decorativa para cubo mágico com estilo arquitetônico grego.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/1001902/images/7625899_f9884c3e-2579-4051-b664-43c60b889fb0_03054168-29a2-4e8e-badf-12e9fe10e56e/thumbs/inside/1280x960/png/0018.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -67,7 +67,7 @@ const products = [
     id: 9,
     name: "Emblema VW Decepticon", categories: ["Geek", "Transformers", "Automotivo", "Decoração"],
     description: "Emblema decorativo inspirado no universo Transformers e na Volkswagen.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#e0a15c", icon: "bi-image", images: ['https://media.printables.com/media/prints/c714d82c-7ce3-48fe-862b-3e18a8dc2145/images/9918571_e022af47-66e4-49be-bbd3-d8c49552e519_bbd9f21c-2fb4-40f5-9576-e9dca631f73b/thumbs/inside/1280x960/png/screenshot-2025-06-01-130925.webp', 'https://media.printables.com/media/prints/bde79e36-cbac-4790-86e6-6b06067e7384/images/9920125_651fce29-763c-4148-84df-6c44e80e9c7b_4e1c9a60-a4fd-40f9-a74b-d060367d549a/thumbs/inside/1280x960/jpeg/img_2119.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
