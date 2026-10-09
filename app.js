@@ -42,9 +42,17 @@ function renderGallery(product) {
   const images = imagesOf(product);
   const art = document.querySelector('#modalArt');
   art.style.setProperty('--art-color', product.color);
-  if (!images.length) { art.innerHTML = `<i class="bi ${product.icon}"></i>`; return; }
-  art.innerHTML = `<div class="gallery-main"><img id="galleryMainImage" src="${images[0]}" alt="${product.name} — foto 1"></div>${images.length > 1 ? `<div class="gallery-thumbs">${images.map((image, index) => `<button class="gallery-thumb ${index === 0 ? 'active' : ''}" type="button" data-image="${image}" data-index="${index}" aria-label="Ver foto ${index + 1}"><img src="${image}" alt=""></button>`).join('')}</div>` : ''}`;
-  art.querySelectorAll('.gallery-thumb').forEach(button => button.addEventListener('click', () => { art.querySelector('#galleryMainImage').src = button.dataset.image; art.querySelector('#galleryMainImage').alt = `${product.name} — foto ${Number(button.dataset.index) + 1}`; art.querySelectorAll('.gallery-thumb').forEach(item => item.classList.remove('active')); button.classList.add('active'); }));
+
+  if (!images.length) {
+    art.innerHTML = `<i class="bi ${product.icon}"></i>`;
+    return;
+  }
+
+  const slides = images.map((image, index) => `<div class="carousel-item ${index === 0 ? 'active' : ''}"><img src="${image}" alt="${product.name} — foto ${index + 1}"></div>`).join('');
+  const controls = images.length > 1 ? `<button class="carousel-control-prev" type="button" data-bs-target="#productGallery" data-bs-slide="prev" aria-label="Imagem anterior"><span class="carousel-control-prev-icon"></span></button><button class="carousel-control-next" type="button" data-bs-target="#productGallery" data-bs-slide="next" aria-label="Próxima imagem"><span class="carousel-control-next-icon"></span></button>` : '';
+  const indicators = images.length > 1 ? `<div class="carousel-indicators">${images.map((_, index) => `<button type="button" data-bs-target="#productGallery" data-bs-slide-to="${index}" class="${index === 0 ? 'active' : ''}" aria-label="Ir para a imagem ${index + 1}"></button>`).join('')}</div>` : '';
+
+  art.innerHTML = `<div id="productGallery" class="carousel slide gallery-carousel" data-bs-interval="false">${indicators}<div class="carousel-inner">${slides}</div>${controls}</div>`;
 }
 
 function openProduct(id) {
