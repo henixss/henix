@@ -211,7 +211,7 @@ const products = [
     id: 27,
     name: "Símbolo de Raiva Anime", categories: ["Geek", "Anime", "Decoração"],
     description: "Símbolo decorativo inspirado na linguagem visual dos animes.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#e0a15c", icon: "bi-image", images: ['https://media.printables.com/media/prints/1209229/images/9079462_1c6d7f39-3162-4735-9358-0abf742a4185_ab0fa90d-7de0-4646-a02b-505e1d697702/thumbs/inside/1280x960/jpg/20250224_170902.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -219,7 +219,7 @@ const products = [
     id: 28,
     name: "Suguru Geto Jujutsu Kaisen", categories: ["Geek", "Jujutsu Kaisen", "Anime", "Colecionáveis"],
     description: "Peça inspirada no personagem Suguru Geto de Jujutsu Kaisen.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/1c9ca538-2acf-4caa-8725-e85e5c273e9a/images/12060858_d5d7f8e1-1cb0-4a97-aac6-90388a6121e3_edcacd71-f4d8-4485-a57c-1fc7bef09f63/thumbs/inside/1280x960/jpg/a6700154.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -227,7 +227,7 @@ const products = [
     id: 29,
     name: "Pingente Sailor Moon", categories: ["Geek", "Sailor Moon", "Anime", "Pingente"],
     description: "Pingente inspirado no universo Sailor Moon.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/571075/images/4568518_8aec5b91-3307-4297-b031-d2ee4c2a7447/thumbs/inside/1280x960/png/sailormoon-v1.webp', 'https://media.printables.com/media/comment_images/ee/507887-6da6-477b-8887-f2fcea823c85/thumbs/outside/320x240/jpg/20240315_120555.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -235,7 +235,7 @@ const products = [
     id: 30,
     name: "Chaveiro Kuromi", categories: ["Geek", "Sanrio", "Anime", "Chaveiro"],
     description: "Chaveiro da Kuromi com troca fácil de filamento.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/692140/images/5441413_1d3d5f7b-2f82-4804-b908-b45e100357b4_868ad6c9-7178-4d16-991a-c1227c728ce8/thumbs/inside/1280x960/jpg/img_20231224_1102142122.webp', 'https://media.printables.com/media/comment_images/47/b96b06-e128-40d9-a4b3-2bcf8141b1e3/thumbs/outside/320x240/jpg/1000008453.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -243,7 +243,7 @@ const products = [
     id: 31,
     name: "Brinco Kaonashi", categories: ["Geek", "Studio Ghibli", "Anime", "Acessórios"],
     description: "Brinco inspirado no personagem Kaonashi.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/810861/images/6269403_cdaa711c-3c05-4b4f-a520-e087da10fe9d_083ab9a9-a051-41d3-91e6-09b568c2e292/thumbs/inside/1280x960/jpeg/photo1710801304-1.webp', 'https://media.printables.com/media/comment_images/d5/d9805e-c1db-47eb-981a-71d89a26f5e3/thumbs/outside/320x240/jpg/243.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -251,15 +251,7 @@ const products = [
     id: 32,
     name: "Peça de Cabelo Skull and Sword Nelliel", categories: ["Geek", "Bleach", "Anime", "Cosplay"],
     description: "Peça de cabelo inspirada na máscara de Nelliel de Bleach.",
-    color: "#829b84", icon: "bi-key", images: [],
-    prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
-    links: { mercadoLivre: '', shopee: '' }
-  },
-  {
-    id: 33,
-    name: "Suporte para Espada Sting", categories: ["Geek", "Senhor dos Anéis", "Decoração", "Organização"],
-    description: "Suporte decorativo para a espada Sting.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/605ceeb1-ea29-47e7-a15c-10c4581422b4/images/10665888_941e9e70-1bfa-419b-9451-49cf0dc6c3ce_4d188ed1-5538-415a-8817-f6e16aeb3c54/thumbs/inside/1280x960/jpeg/hairpiece-zoomed-in.webp', 'https://media.printables.com/media/comment_images/01/fc2b16-3959-488f-be26-7f227a047a53/thumbs/outside/320x240/jpg/image_1764936761571383.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -267,7 +259,7 @@ const products = [
     id: 34,
     name: "Decoração Hunter x Hunter", categories: ["Geek", "Hunter x Hunter", "Anime", "Decoração"],
     description: "Peça decorativa inspirada em Hunter x Hunter.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/3195d4db-7af0-43a9-b174-b29de5eaca9f/images/13812463_3d7ab3c4-a2cb-45b8-8e94-4a9f747beba2_daeed43b-de02-430a-a824-29836ebb95c1/thumbs/inside/1280x960/png/screenshot-2026-09-14-184029.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -275,7 +267,7 @@ const products = [
     id: 35,
     name: "Kit Kunai", categories: ["Geek", "Naruto", "Anime", "Cosplay"],
     description: "Kit de kunais inspirado em Naruto.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/679197/images/5347119_aa6ff059-0c5b-4702-9841-e1e8971cb666_ec917e2c-890d-4e98-856a-d2734d342d55/thumbs/inside/1280x960/jpg/dsc08874.webp', 'https://media.printables.com/media/comment_images/eb/b43bc2-937e-4481-8df6-b23329d010e4/thumbs/outside/320x240/jpg/20260927_123520.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -283,7 +275,7 @@ const products = [
     id: 36,
     name: "Eeveevolutions Kanto", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
     description: "Conjunto com Eevee e evoluções da região de Kanto.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/a407a350-6d3c-49c5-97d9-c8155796bfa7/images/12686848_b98f41d3-29db-4fa9-bfa4-ff0cb6488ab1_680d3a9b-d70d-4b76-a495-cf523b182064/thumbs/inside/1280x960/png/front.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -291,7 +283,7 @@ const products = [
     id: 37,
     name: "Pokébola", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
     description: "Pokébola decorativa inspirada no universo Pokémon.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/374028/images/3560403_e02489d5-ede2-488f-b91a-09c993f8535f/thumbs/inside/1280x960/jpg/20230119_102028.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -299,7 +291,7 @@ const products = [
     id: 38,
     name: "Batarang Dobrável Batman", categories: ["Geek", "Batman", "Cosplay", "Decoração"],
     description: "Batarang dobrável inspirado em Batman Arkham Knight.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/07ee60f5-1abe-42b5-8400-4ff3cccd9648/images/13606106_456c6571-4baf-4c6e-b9de-47f5b0997f97_9b4dbb00-1c55-4a8b-b681-2806d80b554e/thumbs/inside/1280x960/png/batarang2.webp', 'https://media.printables.com/media/prints/647b3c08-a337-494c-a84e-833943ef9f50/images/13606107_5be4e133-0faf-4855-9c01-52ab68b5dce3_c5ea0429-1cb2-44d2-8185-5bf403812a18/thumbs/inside/1280x960/png/batarang1.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -307,15 +299,15 @@ const products = [
     id: 39,
     name: "Pokébola Decorativa", categories: ["Geek", "Pokémon", "Decoração"],
     description: "Peça decorativa em formato de Pokébola.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#e0a15c", icon: "bi-image", images: ['https://media.printables.com/media/prints/7a95fa7c-1b8c-439a-996b-dd476abf8e71/images/13716890_e369ee53-0ff6-4aa7-a0a0-52e760f5904b_858f4b27-a456-40dd-ad96-58f70b0f941c/thumbs/inside/1280x960/png/screenshot-2026-09-01-200510.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
   {
     id: 40,
-    name: "Máscara Sub-Zero Fortnite", categories: ["Geek", "Fortnite", "Cosplay", "Acessórios"],
+    name: "Máscara Sub-Zero", categories: ["Geek", "Fortnite", "Cosplay", "Acessórios"],
     description: "Máscara inspirada no personagem Sub-Zero.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/1835082/images/13755278_e3367541-6b43-48bc-8439-58191ca13732_ec591432-70c3-4af7-b7ab-60fa60e91e08/thumbs/inside/1280x960/png/image_1835082.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -323,7 +315,7 @@ const products = [
     id: 41,
     name: "Decoração Como Treinar o Seu Dragão", categories: ["Geek", "Filmes", "Decoração", "Colecionáveis"],
     description: "Peça decorativa inspirada em Como Treinar o Seu Dragão.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/0ae5f983-50df-4f14-b8b4-3d003ff66c45/images/13722830_9b2a9094-f53e-4d4d-8ddf-f7eee7ef0487_0e605513-1313-4e45-8141-ff4b41581837/thumbs/inside/1280x960/png/screenshot-2026-09-02-190731.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -331,7 +323,7 @@ const products = [
     id: 42,
     name: "Crânio Cubone Pokémon", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
     description: "Peça decorativa inspirada no crânio do Pokémon Cubone.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/1053983/images/7985347_0c060acf-6c87-4cbf-8f1a-931127eea392_66c25dcf-d757-49ef-9e1e-161923bce16f/thumbs/inside/1280x960/png/cubone-skull1.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -339,7 +331,7 @@ const products = [
     id: 43,
     name: "Máscara Sakai Ghost of Tsushima", categories: ["Geek", "Games", "Cosplay", "Acessórios"],
     description: "Máscara inspirada no clã Sakai de Ghost of Tsushima.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/35f8562d-e7e7-4634-8fcc-9827c8a849a2/images/13753326_f638784b-04aa-4230-84cb-58a7b716d363_a8e9505b-98ae-4364-a87d-9984bbcd1c3a/thumbs/inside/1280x960/png/untitled.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -347,7 +339,7 @@ const products = [
     id: 44,
     name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
     description: "Conjunto de xadrez inspirado no universo Pokémon.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   }
