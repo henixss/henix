@@ -123,7 +123,7 @@ const products = [
     id: 16,
     name: "Kit Porta-copos Batman", categories: ["Geek", "Batman", "Casa", "Decoração"],
     description: "Conjunto de porta-copos inspirado no universo Batman.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/478100/images/4028107_4886826b-7624-4cc4-b23e-82d0dfc18488/thumbs/inside/1280x960/jpg/cover.webp', 'https://media.printables.com/media/comment_images/e0/1d0ff3-51fa-4c15-9f7e-7db875bc857a/thumbs/outside/320x240/jpg/win_20250506_17_59_10_pro.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -131,7 +131,7 @@ const products = [
     id: 17,
     name: "Poções Minecraft", categories: ["Geek", "Minecraft", "Decoração", "Colecionáveis"],
     description: "Miniaturas de poções inspiradas em Minecraft.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/dee0d339-4045-495c-ab56-a696aec6d67f/images/10979541_98a5adb4-34c7-4cfc-aa0d-9bb1b950c586_57cabfb4-ee5e-433f-9a36-2b97d3ab4455/thumbs/inside/1280x960/png/potion-led.webp', 'https://media.printables.com/media/comment_images/3e/3e369f-5dea-42cb-bbab-8e702baa3ddc/thumbs/outside/320x240/jpg/image_1769803446926141.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -139,7 +139,7 @@ const products = [
     id: 18,
     name: "Eevee Low-Poly", categories: ["Geek", "Pokémon", "Decoração", "Colecionáveis"],
     description: "Miniatura low-poly inspirada no Pokémon Eevee.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/284/images/2017_5f084ce2-e2d3-47eb-90c2-ddd5ceacd6d8/thumbs/inside/1280x960/jpg/09922cabe7e455a53688cb862b9ab97c_preview_featured.webp', 'https://media.printables.com/media/comment_images/89/6741cb-ee0f-4a82-951f-dc898fbe62db/thumbs/outside/320x240/jpg/lxxd6pj6.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
