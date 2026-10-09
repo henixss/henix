@@ -147,7 +147,7 @@ const products = [
     id: 19,
     name: "Quadro Anime Ranma 1/2", categories: ["Geek", "Anime", "Quadro", "Decoração"],
     description: "Quadro decorativo inspirado no anime Ranma 1/2.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/1138495/images/8590722_1bb36d4f-e9bd-4473-9f29-6e7be5515342_96a9d6db-68c7-49bb-91da-9488d2814ee8/thumbs/inside/1280x960/jpg/ranma-anime-wall-art.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -155,7 +155,7 @@ const products = [
     id: 20,
     name: "Acessórios de Cabelo Anime", categories: ["Geek", "Anime", "Acessórios", "Moda"],
     description: "Acessórios de cabelo com inspiração em anime.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/bf22cc98-9a11-44f8-964d-af8f0565830c/images/12130883_93a27e96-8857-4be8-afaa-b2db1508a627_3414ef1c-d1fc-413a-a1cf-f6d8a7eba649/thumbs/inside/1280x960/png/screenshot-2026-02-22-155847.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -163,7 +163,7 @@ const products = [
     id: 21,
     name: "Presilhas Mina Ashiro Kaiju Nº 8", categories: ["Geek", "Anime", "Acessórios", "Cosplay"],
     description: "Presilhas inspiradas na personagem Mina Ashiro de Kaiju Nº 8.",
-    color: "#e0a15c", icon: "bi-image", images: [],
+    color: "#e0a15c", icon: "bi-image", images: ['https://media.printables.com/media/prints/c421d4f3-45fc-4086-b223-96777020c686/images/10350114_d6f4e0d8-7fc4-4046-aa3c-8ab0777753d3_6485ddd5-b267-436c-8651-65bfcddff9b7/thumbs/inside/1280x960/png/brave_6qvyuhknlu.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -171,7 +171,7 @@ const products = [
     id: 22,
     name: "Molde de Bombas de Banho Gato Anime", categories: ["Casa", "Anime", "Acessórios"],
     description: "Molde híbrido de gato com inspiração em anime.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/600810/images/4781873_a0fe9b54-eba3-4b7e-8d3a-f150f3bc34ef_a3a420c7-8b81-4320-b947-63c2f29103ac/thumbs/inside/1280x960/jpg/animecatsample.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -179,7 +179,7 @@ const products = [
     id: 23,
     name: "Pingente Sailor Moon Space-Time Key", categories: ["Geek", "Sailor Moon", "Anime", "Pingente"],
     description: "Pingente inspirado na chave do espaço-tempo de Sailor Moon.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/573325/images/4585123_5ea9edb9-167e-4e69-a8dd-21309c110771/thumbs/inside/1280x960/jpg/render-photo-2.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -187,7 +187,7 @@ const products = [
     id: 24,
     name: "Quadro Totoro", categories: ["Geek", "Studio Ghibli", "Anime", "Quadro", "Decoração"],
     description: "Quadro decorativo inspirado em Totoro.",
-    color: "#d17d92", icon: "bi-controller", images: [],
+    color: "#d17d92", icon: "bi-controller", images: ['https://media.printables.com/media/prints/e5b94725-0c48-4d85-a849-8df8a5855d15/images/13866985_ef881687-d011-49e8-bd09-ced92e6c19f8_2bd67de5-8dc0-4bbc-bf2c-31aa082853ae/thumbs/inside/1280x960/png/1.webp', 'https://media.printables.com/media/comment_images/3c/6b39f1-6976-47fd-906e-bc43fcfb1671/thumbs/outside/320x240/jpg/image_1791103052248063.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -195,7 +195,7 @@ const products = [
     id: 25,
     name: "Garota Anime com Suporte", categories: ["Geek", "Anime", "Decoração", "Colecionáveis"],
     description: "Miniatura de personagem anime com opção de suporte.",
-    color: "#d96b3d", icon: "bi-stars", images: [],
+    color: "#d96b3d", icon: "bi-stars", images: ['https://media.printables.com/media/prints/5071718b-c9dd-476c-9353-cdde1bf18abb/images/9406879_49b55bf9-ed5d-441d-b636-23c51b2c9f0e_6e1e41ec-1346-46fe-9c63-569bd4a24af3/thumbs/inside/1280x960/jpg/img_20250403_132108.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -203,7 +203,7 @@ const products = [
     id: 26,
     name: "Marcador de Página Naruto", categories: ["Geek", "Naruto", "Anime", "Acessórios"],
     description: "Marcador de página inspirado em Naruto.",
-    color: "#829b84", icon: "bi-key", images: [],
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/prints/1148238/images/8668165_33e9c30d-fc4d-4485-874c-01fef5e29e7f_a9b78e81-6de1-4668-88f8-ea43a4585869/thumbs/inside/1280x960/png/image-1.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
