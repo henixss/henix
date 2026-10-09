@@ -75,7 +75,7 @@ const products = [
     id: 10,
     name: "Arma Portal do Rick", categories: ["Geek", "Rick and Morty", "Decoração", "Cosplay"],
     description: "Peça inspirada na arma portal do universo Rick and Morty.",
-    color: "#9b7bb0", icon: "bi-code-slash", images: [],
+    color: "#9b7bb0", icon: "bi-code-slash", images: ['https://media.printables.com/media/prints/932118/images/7104761_e1d1b028-27dc-487d-9f4d-6a4a848f7192_e71d40e2-cf1d-46b7-929c-491d02cd41be/thumbs/inside/1280x960/jpg/img_2767.webp', 'https://media.printables.com/media/comment_images/4e/8c59a8-e52b-421c-80d2-d6771d2cba25/thumbs/outside/320x240/jpg/photo-aug-01-2025-4-18-03-pm.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
@@ -83,7 +83,7 @@ const products = [
     id: 11,
     name: "Suporte de Livros Pilar Grego", categories: ["Casa", "Decoração", "Organização"],
     description: "Suporte de livros com visual inspirado em um pilar grego.",
-    color: "#5d8ca5", icon: "bi-dice-5", images: [],
+    color: "#5d8ca5", icon: "bi-dice-5", images: ['https://media.printables.com/media/prints/180175/images/1690468_bda163ab-fc09-433c-aa0a-b079daf6a1eb/thumbs/inside/1280x960/png/greek-bookend.webp', 'https://media.printables.com/media/prints/180175/images/1684822_4e1e5662-1ed6-4ed2-8cb0-a6027989bd28/thumbs/inside/1280x960/png/image2.webp'],
     prices: { whatsapp: '', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
   },
