@@ -395,45 +395,127 @@ Os modelos podem variar conforme a composição do kit e disponibilidade.`,
     links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Kit-de-Enfeites-Natalinos-para-Árvore-de-Natal-i.637365345.58219075948?extraParams=%7B"display_model_id"%3A228813296668%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 46,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    name: "lanterna natalina com luz led enfeite para árvore de natal", categories: ["Casa e Construção","Artigos de Festa","Outros"],
+    description:` • Lanterna decorativa em impressão 3d
+
+• Luz de led em tom quente 
+
+• Ideal para árvore de natal, guirlanda e decoração de ambientes
+
+• Leve, resistente e fácil de pendurar`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820lk-mtjuy76tmg3n48@resize_w450_nl.webp','https://down-br.img.susercontent.com/file/br-11134201-820ld-mtjuvspe8000ac@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: 'R$ ' },
     links: { mercadoLivre: '', shopee: '' }
   },{
     id: 47,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
-    links: { mercadoLivre: '', shopee: '' }
+    name: "Suporte de esponja divertido e funcional", categories: ["Casa e Construção","Artigos de Cuidados com a Casa","Esponjas e Esfregões"],
+    description: `Deixe sua cozinha mais organizada e cheia de personalidade! ✨
+
+Nosso suporte de esponja em impressão 3D possui um design divertido, moderno e funcional, perfeito para manter sua esponja sempre no lugar.
+
+✅ Design criativo e exclusivo
+
+✅ Ajuda a manter a esponja organizada
+
+✅ Estrutura com espaço para ventilação
+
+✅ Pernas articuladas que dão um charme especial
+
+✅ Produzido em impressão 3D
+
+✅ Fácil de limpar e usar
+
+✅ Ideal para pia de cozinha`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820lp-mtoholt05rsy11@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 21,90', mercadoLivre: '', shopee: 'R$ 33' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Suporte-de-esponja-divertido-e-funcional-i.637365345.58219202602?extraParams=%7B"display_model_id"%3A179420359118%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 48,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
-    links: { mercadoLivre: '', shopee: '' }
+    name: "Cantoneira para prateleiras", categories: ["Casa e Construção","Móveis","Prateleiras e Racks"],
+    description: `Praticidade e organização para o dia a dia com esta cantoneira para prateleiras. Um acessório resistente e estável, ideal para ajudar a manter o ambiente mais funcional e bem aproveitado, com um visual simples e fácil de integrar em diferentes espaços.
+
+
+
+Destaques do produto
+
+Feita em plástico, esta cantoneira é resistente e durável para uso regular.
+
+Sua proposta de uso estável ajuda a apoiar e organizar a estrutura da prateleira com mais segurança.
+
+Também é resistente ao calor, oferecendo mais praticidade no dia a dia.
+
+
+
+Uso e organização
+
+Ideal para aplicação em prateleiras, é uma solução útil para quem busca uma organização mais prática e funcional.
+
+Seu formato portátil facilita a colocação e o uso em diferentes locais.
+
+
+
+Informações adicionais
+
+País de origem: Brasil
+
+Necessita montagem: Sim
+
+Móvel dobrável: Não
+
+Produto personalizado: Não
+
+Coleção de antiguidade: Não
+
+Quantidade da embalagem: 1
+
+Tipo de garantia: Sem garantia
+
+Dimensões do produto (A x L x C), sem a caixa de embalagem: 5 × 4 × 5`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820lx-mts3skf9hjwh93@resize_w450_nl.webp','https://down-br.img.susercontent.com/file/br-11134201-820mh-mts3siphqy2pfd@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 6,97', mercadoLivre: '', shopee: 'R$ 14,33' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Cantoneira-para-prateleiras-i.637365345.58219490310?extraParams=%7B"display_model_id"%3A209195230831%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 49,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
-    links: { mercadoLivre: '', shopee: '' }
+    name: "Chaveiros Profissões Cursos - Coleção Símbolos", categories: ["Acessórios de Moda","Acessórios Adicionais","Amuletos, Pingentes e Ornamentos"],
+    description: `COLEÇÃO DE CHAVEIROS DOS CURSOS
+
+Descubra a coleção exclusiva de chaveiros que representam diferentes cursos e profissões, cada um com um símbolo único e cheio de significado. Ideal para estudantes, profissionais e apaixonados por suas áreas de estudo.
+
+
+
+CARACTERÍSTICAS
+
+- Material resistente para uso diário
+
+- Design leve e estiloso, perfeito para presentear ou colecionar
+
+
+
+CURSOS REPRESENTADOS
+
+Eletrotécnica, Automação, Mecânica, Edificação, Física, Letras, Química e Teatro.
+
+
+
+RECOMENDAÇÕES
+
+Perfeito para presentear amigos, familiares ou para uso pessoal como símbolo de orgulho pela sua área de estudo ou profissão.`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820m1-mtkidr9gim0ybc@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 5', mercadoLivre: '', shopee: 'R$ 11,88' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Chaveiros-Profissões-Cursos-Coleção-Símbolos-i.637365345.58269053671?extraParams=%7B"display_model_id"%3A189194946572%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 50,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    name: "", categories: [],
+    description: ``,
+    color: "#829b84", icon: "bi-key", images: [''],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: 'R$ ' },
     links: { mercadoLivre: '', shopee: '' }
   },{
     id: 51,
-    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
-    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
-    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    name: "", categories: [],
+    description: ``,
+    color: "#829b84", icon: "bi-key", images: [''],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: 'R$ ' },
     links: { mercadoLivre: '', shopee: '' }
   },
 ];
