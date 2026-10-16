@@ -342,5 +342,98 @@ const products = [
     color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
     prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
     links: { mercadoLivre: '', shopee: '' }
-  }
+  },
+
+
+
+
+
+
+
+
+
+    {
+    id: 45,
+    name: "Kit de Enfeites Natalinos para Árvore de Natal", categories: ["Casa e Construção","Artigos de Festa","Outros"],
+    description: `Deixe sua árvore de Natal ainda mais encantadora e personalizada! ✨
+
+Nosso kit de enfeites natalinos brancos reúne diferentes modelos temáticos, produzidos em impressão 3D, perfeitos para decorar árvores de Natal, guirlandas, arranjos e outros ambientes.
+
+🎁 O kit acompanha diversos modelos, como:
+
+🦌 Renas
+
+⛄ Bonecos de neve
+
+👼 Anjinhos
+
+❄️ Flocos de neve
+
+⭐ Estrelas
+
+🍪 Bonequinhos de Natal
+
+🎄 Outros modelos natalinos
+
+🤍 Cor: Branco
+
+🎄 Material: PLA – impressão 3D
+
+✨ Enfeites leves e delicados
+
+🎁 Enviados em embalagem transparente
+
+🏠 Ideais para decoração de Natal, árvores, festas e ambientes comerciais
+
+Transforme sua decoração com um toque moderno, delicado e artesanal! ❤️🎄
+
+📦 Produto pronto para envio.
+
+Os modelos podem variar conforme a composição do kit e disponibilidade.`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820m5-mtlbe5uz6zgha8@resize_w450_nl.webp','https://down-br.img.susercontent.com/file/br-11134201-820ma-mtlbf74740sia6@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 11', mercadoLivre: '', shopee: 'R$ 18,87' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Kit-de-Enfeites-Natalinos-para-Árvore-de-Natal-i.637365345.58219075948?extraParams=%7B"display_model_id"%3A228813296668%2C"model_selection_logic"%3A3%7D' }
+  },{
+    id: 46,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },{
+    id: 47,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },{
+    id: 48,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },{
+    id: 49,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },{
+    id: 50,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },{
+    id: 51,
+    name: "Xadrez Pokémon", categories: ["Geek", "Pokémon", "Jogos de Tabuleiro", "Colecionáveis"],
+    description: "Conjunto de xadrez inspirado no universo Pokémon. Dimensões:××.",
+    color: "#829b84", icon: "bi-key", images: ['https://media.printables.com/media/comment_images/29/6a0487-6ed3-4cde-89a3-a7aece75fbde/thumbs/inside/1920x1440/png/6.webp'],
+    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: '' },
+    links: { mercadoLivre: '', shopee: '' }
+  },
 ];
