@@ -505,17 +505,51 @@ Perfeito para presentear amigos, familiares ou para uso pessoal como símbolo de
     links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Chaveiros-Profissões-Cursos-Coleção-Símbolos-i.637365345.58269053671?extraParams=%7B"display_model_id"%3A189194946572%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 50,
-    name: "", categories: [],
-    description: ``,
-    color: "#829b84", icon: "bi-key", images: [''],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: 'R$ ' },
-    links: { mercadoLivre: '', shopee: '' }
+    name: "Guerreiras do K-pop gancho + moldura", categories: ["Casa e Construção","Organizadores para Casa","Ganchos"],
+    description: `Pensado exclusivamente para as fas de k-pop, ideal para chaveiros, bolsas, mochilas entre outras utilidades`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820l9-mtoeyq7ypbeo22@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 69', mercadoLivre: '', shopee: 'R$ 92' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Guerreiras-do-K-pop-gancho-moldura-i.637365345.58269207560?extraParams=%7B"display_model_id"%3A109730866642%2C"model_selection_logic"%3A3%7D' }
   },{
     id: 51,
-    name: "", categories: [],
-    description: ``,
-    color: "#829b84", icon: "bi-key", images: [''],
-    prices: { whatsapp: 'R$ ', mercadoLivre: '', shopee: 'R$ ' },
-    links: { mercadoLivre: '', shopee: '' }
+    name: "Suporte gancho para banheiro box", categories: ["Casa e Construção","Banheiros","Outros"],
+    description: `Organize o seu banheiro com um gancho minimalista para box de vidro, uma solução prática, elegante e sem ferramentas. Feito para manter o espaço limpo e funcional, este suporte ajuda a pendurar itens do dia a dia com mais facilidade e visual mais leve.
+
+
+
+Instalação simples e sem furar
+
+Deslize o gancho sobre a borda superior do painel de vidro do box, sem necessidade de ferramentas ou furar o vidro. É uma opção prática para quem busca uma solução rápida e discreta no banheiro.
+
+
+
+Design minimalista para o dia a dia
+
+Com uma geometria simples e visual limpo, este suporte foi pensado para integrar-se ao box de vidro com elegância. É ideal para pendurar toalhas, roupões ou buchas diretamente no box, mantendo os itens essenciais sempre ao alcance.
+
+
+
+Dupla funcionalidade e versatilidade
+
+Os perfis dos ganchos permitem uso em ambos os lados, facilitando a penduração de itens tanto dentro quanto fora do chuveiro. Uma proposta versátil para quem quer aproveitar melhor o espaço do box.
+
+
+
+Detalhes do produto
+
+Material: plástico
+
+Necessita montagem: não
+
+Quantidade da embalagem: 1
+
+Dimensões do produto (A x L x C), sem a caixa de embalagem: 4 × 4 × 3,8
+
+Tamanho do pacote: 10 cm
+
+Lugar de colocação: box vidro`,
+    color: "#829b84", icon: "bi-key", images: ['https://down-br.img.susercontent.com/file/br-11134201-820ld-mtrb350a3qpu80@resize_w450_nl.webp'],
+    prices: { whatsapp: 'R$ 6', mercadoLivre: '', shopee: 'R$ 13,12' },
+    links: { mercadoLivre: '', shopee: 'https://shopee.com.br/Suporte-gancho-para-banheiro-box-i.637365345.58269472417?extraParams=%7B"display_model_id"%3A219627624379%2C"model_selection_logic"%3A3%7D' }
   },
 ];
