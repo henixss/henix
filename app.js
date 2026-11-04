@@ -9,11 +9,28 @@ let currentFilter = 'Todos';
 function categoriesOf(product) { return Array.isArray(product.categories) ? product.categories : [product.category].filter(Boolean); }
 function imagesOf(product) { if (Array.isArray(product.images)) return product.images.filter(Boolean); return product.image ? [product.image] : []; }
 function whatsappLink(product) { return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Oi! Tenho interesse na peça ${product.name}.`)}`; }
+function categoryKey(category) { return String(category).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/s$/, ''); }
+function categoryMatches(categories, filter) { return filter === 'Todos' || categories.some(category => categoryKey(category) === categoryKey(filter)); }
+function readFilterFromUrl() {
+  const hashQuery = window.location.hash.includes('?') ? window.location.hash.split('?')[1] : '';
+  const params = new URLSearchParams(window.location.search || hashQuery);
+  const requested = params.get('categoria') || params.get('filtro');
+  if (!requested) return 'Todos';
+  const available = [...new Set(products.flatMap(categoriesOf))];
+  return available.find(category => categoryKey(category) === categoryKey(requested)) || 'Todos';
+}
+function syncFilterUrl() {
+  const url = new URL(window.location.href);
+  url.searchParams.delete('categoria');
+  if (currentFilter !== 'Todos') url.searchParams.set('categoria', currentFilter);
+  url.hash = 'catalogo';
+  window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+}
 
 function renderFilters() {
   const categories = [...new Set(products.flatMap(categoriesOf))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
   filterWrap.innerHTML = ['Todos', ...categories].map(category => `<button class="filter-btn ${category === currentFilter ? 'active' : ''}" data-filter="${category}">${category}</button>`).join('');
-  filterWrap.querySelectorAll('.filter-btn').forEach(button => button.addEventListener('click', () => { currentFilter = button.dataset.filter; renderFilters(); render(); }));
+  filterWrap.querySelectorAll('.filter-btn').forEach(button => button.addEventListener('click', () => { currentFilter = button.dataset.filter; syncFilterUrl(); renderFilters(); render(); }));
 }
 
 function productCard(product) {
@@ -26,7 +43,7 @@ function productCard(product) {
 
 function render() {
   const term = searchInput.value.toLowerCase().trim();
-  const filtered = products.filter(p => { const categories = categoriesOf(p); return (currentFilter === 'Todos' || categories.includes(currentFilter)) && (`${p.name} ${p.description} ${categories.join(' ')}`).toLowerCase().includes(term); });
+  const filtered = products.filter(p => { const categories = categoriesOf(p); return categoryMatches(categories, currentFilter) && (`${p.name} ${p.description} ${categories.join(' ')}`).toLowerCase().includes(term); });
   grid.innerHTML = filtered.map(productCard).join('');
   emptyState.classList.toggle('d-none', filtered.length > 0);
   document.querySelectorAll('.product-card').forEach(card => { card.addEventListener('click', () => openProduct(Number(card.dataset.id))); card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openProduct(Number(card.dataset.id)); } }); });
@@ -68,5 +85,6 @@ function openProduct(id) {
 }
 
 searchInput.addEventListener('input', render);
+currentFilter = readFilterFromUrl();
 renderFilters();
 render();
