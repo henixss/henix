@@ -1276,7 +1276,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USe3a7f1c8bdc5de/design/2024-11-03_dbbff71e043d3.jpeg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 11",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1304,7 +1304,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US81cb12caa6382f/design/2025-09-07_ce35a69ef4e35.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1329,7 +1329,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US599edd90ba6660/design/2025-05-24_d02f296fadf3e.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1357,7 +1357,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US6c9bf513c269ce/design/2025-02-09_288ebf28309dc.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1383,7 +1383,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US9df16be4fd1c6f/design/2024-06-06_88d35cea01d9e.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1411,7 +1411,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US127bbb512ec548/design/2024-12-18_1bd3262ca04bd.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1439,7 +1439,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US7f7d2bb6f0290a/design/2024-10-08_b2da5eeef93dd.jpeg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1464,7 +1464,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US73d38e417549e5/design/34fd59c8387644de.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1490,7 +1490,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US820d9342f3ea7b/design/2025-04-29_195bb2cc062308.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1516,7 +1516,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US945c1d3206b829/design/2025-10-06_57df5fe2299b1.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1542,7 +1542,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US9d965528633ef4/design/2023-12-13_968757b180c18.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1570,7 +1570,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US1fe994ee13721a/design/2025-02-17_406803b3c50bf.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 20",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1596,7 +1596,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US33fbf7099c5587/design/2024-04-30_fd00003eb6fb6.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1622,7 +1622,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USbf737b5602517e/design/2025-12-01_2e91e0aacb709.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1631,32 +1631,6 @@ const products = [
       "shopee": ""
     },
     "source": "https://makerworld.com/en/models/2064946-super-mario-keychain-collection"
-  },
-  {
-    "id": 66,
-    "name": "Chaveiro ou Tag Personalizável — Spotify",
-    "categories": [
-      "Chaveiros",
-      "Música",
-      "Personalizáveis",
-      "Acessórios"
-    ],
-    "description": "Tag personalizável inspirada no Spotify para representar sua música, artista ou playlist favorita.",
-    "color": "#e0a15c",
-    "icon": "bi-music-note-beamed",
-    "images": [
-      "https://makerworld.bblmw.com/makerworld/model/US97116991d738d3/design/2025-08-01_618525a1847ab.png"
-    ],
-    "prices": {
-      "whatsapp": "R$",
-      "mercadoLivre": "",
-      "shopee": ""
-    },
-    "links": {
-      "mercadoLivre": "",
-      "shopee": ""
-    },
-    "source": "https://makerworld.com/en/models/1660269-customizable-spotify-keychain-tag"
   },
   {
     "id": 67,
@@ -1674,7 +1648,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US813059708258c0/design/6eb70cd93a52d12e.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1700,7 +1674,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US7a34f94a21b3e5/design/ecb47749e07e1eeb.png"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1727,7 +1701,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USe4d940380283be/design/2024-11-07_6f4189473672d.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1753,7 +1727,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US177145bf6ee243/design/2024-12-03_3982a4768830e.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1779,7 +1753,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US2cf76a1338333/design/2025-07-23_65f2258f903b4.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 20",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1805,7 +1779,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USf6576061ab9df5/design/2024-12-30_70a84a6656cce.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1831,7 +1805,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US458a7dafe8ced/design/2025-03-18_b5c2ade735d4e8.jpg"
     ],
     "prices": {
-      "whatsapp": "R$",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
