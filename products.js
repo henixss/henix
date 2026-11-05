@@ -6,7 +6,7 @@ const products = [
       "Geek",
       "Hatsune Miku"
     ],
-    "description": "Miniatura da Hatsune Miku em estilo chibi, com detalhes marcantes para decorar sua coleção. Medidas aproximadas: 10,73 × 4,76 × 10,09 cm.",
+    "description": "Miniatura da Hatsune Miku em versão chibi, com visual icônico e detalhes encantadores para decorar sua coleção. Dimensões: 10,73 × 4,76 × 10,09 cm.",
     "color": "#d96b3d",
     "icon": "bi-flower1",
     "images": [
@@ -32,7 +32,7 @@ const products = [
       "Pingente",
       "Transformers"
     ],
-    "description": "Pingente inspirado nos Decepticons e no universo Transformers, ideal para fãs e colecionadores. Medidas aproximadas: 0,6 × 3,5 × 3,7 cm.",
+    "description": "Pingente dos Decepticons, com design marcante inspirado no universo Transformers, ideal para fãs e colecionadores. Dimensões: 0,6 × 3,5 × 3,7 cm.",
     "color": "#829b84",
     "icon": "bi-headphones",
     "images": [
@@ -58,7 +58,7 @@ const products = [
       "Quadro",
       "Decoração"
     ],
-    "description": "Painel decorativo imperial com a frase “Que o Quatro de Maio esteja com você” escrita em Aurebesh. Medidas aproximadas: 18 × 0,5 × 20 cm.",
+    "description": "Painel Imperial com a frase “Que o Quatro de Maio esteja com você” escrita em Aurebesh. Medidas aproximadas: 18 × 0,5 × 20 cm.",
     "color": "#e0a15c",
     "icon": "bi-stars",
     "images": [
@@ -82,7 +82,7 @@ const products = [
       "Chaveiro",
       "Pingente"
     ],
-    "description": "Pingente com o logotipo da linguagem Python em duas cores, ideal para programadores e entusiastas de tecnologia. Medidas aproximadas: 5 × 4,5 cm.",
+    "description": "Pingente do logo Python em duas cores, ideal para programadores e entusiastas da tecnologia. Dimensões: 5 × 4,5 cm.",
     "color": "#9b7bb0",
     "icon": "bi-rocket-takeoff",
     "images": [
@@ -108,7 +108,7 @@ const products = [
       "Jogos de Tabuleiro",
       "Acessórios"
     ],
-    "description": "Caixa compacta para guardar e organizar dados de RPG, perfeita para levar às suas aventuras. Medidas aproximadas: 9 × 7 × 2 cm.",
+    "description": "Caixa para dados de RPG, ideal para guardar e organizar seus dados com praticidade e estilo durante suas aventuras. Dimensões: 9 × 7 × 2 cm.",
     "color": "#5d8ca5",
     "icon": "bi-grid-3x3-gap",
     "images": [
@@ -132,7 +132,7 @@ const products = [
       "Zelda",
       "Decoração"
     ],
-    "description": "Peça decorativa inspirada na Triforce e no universo de Zelda. Medidas aproximadas: 5,1 × 0,4 × 0,6 cm.",
+    "description": "Peça decorativa inspirada no universo de Zelda. Dimensões: 5,1 × 0,4 × 0,6 cm.",
     "color": "#d17d92",
     "icon": "bi-controller",
     "images": [
@@ -158,7 +158,7 @@ const products = [
       "Decoração",
       "Miniaturas"
     ],
-    "description": "Miniatura do DeLorean, o icônico carro de viagem no tempo de De Volta para o Futuro. Medidas aproximadas: 7,5 × 14,7 × 6 cm.",
+    "description": "Miniatura inspirada no carro de viagem no tempo. Dimensões: 7,5 × 14,7 × 6 cm.",
     "color": "#d96b3d",
     "icon": "bi-stars",
     "images": [
@@ -182,7 +182,7 @@ const products = [
       "Jogos",
       "Decoração"
     ],
-    "description": "Base decorativa para cubo mágico, com estilo inspirado na arquitetura grega. Medidas aproximadas: 8,8 × 8,8 × 2,3 cm.",
+    "description": "Base decorativa para cubo mágico com estilo arquitetônico grego. Dimensões: 8,8 × 8,8 × 2,3 cm.",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -207,7 +207,7 @@ const products = [
       "Automotivo",
       "Decoração"
     ],
-    "description": "Emblema decorativo que combina referências dos Decepticons e da Volkswagen. Medidas aproximadas: 6,3 × 6 × 6,5 cm.",
+    "description": "Emblema decorativo inspirado no universo Transformers e na Volkswagen. Dimensões: 6,3 × 6 × 6,5 cm.",
     "color": "#e0a15c",
     "icon": "bi-image",
     "images": [
@@ -233,7 +233,7 @@ const products = [
       "Decoração",
       "Cosplay"
     ],
-    "description": "Peça inspirada na arma portal de Rick, do universo de Rick and Morty. Medidas aproximadas: 21,4 × 21,6 × 7,3 cm.",
+    "description": "Peça inspirada na arma portal do universo Rick and Morty. Dimensões: 21,4 × 21,6 × 7,3 cm.",
     "color": "#9b7bb0",
     "icon": "bi-code-slash",
     "images": [
@@ -258,7 +258,7 @@ const products = [
       "Decoração",
       "Organização"
     ],
-    "description": "Suporte para livros com visual inspirado em um pilar grego. Medidas aproximadas: 7,5 × 4 × 2 cm.",
+    "description": "Suporte de livros com visual inspirado em um pilar grego. Dimensões: 7,5 × 4 × 2 cm.",
     "color": "#5d8ca5",
     "icon": "bi-dice-5",
     "images": [
@@ -284,7 +284,7 @@ const products = [
       "Decoração",
       "Colecionáveis"
     ],
-    "description": "Peça decorativa inspirada no BMO, personagem de Hora de Aventura. Medidas aproximadas: 5 × 5,1 × 1,6 cm.",
+    "description": "Peça decorativa inspirada no personagem BMO, de Hora de Aventura. Medidas aproximadas: 5 × 5,1 × 1,6 cm.",
     "color": "#d17d92",
     "icon": "bi-controller",
     "images": [
@@ -310,7 +310,7 @@ const products = [
       "Cosplay",
       "Decoração"
     ],
-    "description": "Batarang decorativo inspirado no universo do Batman, ideal para fãs e colecionadores.",
+    "description": "Batarang inspirado no universo do Batman, ideal para fãs e colecionadores.",
     "color": "#d96b3d",
     "icon": "bi-stars",
     "images": [
@@ -439,7 +439,7 @@ const products = [
       "Decoração",
       "Colecionáveis"
     ],
-    "description": "Miniatura do Pokémon Eevee em estilo low poly, ideal para decorar ou colecionar.",
+    "description": "Miniatura do Pokémon Eevee em estilo poligonal, ideal para decorar ou colecionar.",
     "color": "#d17d92",
     "icon": "bi-controller",
     "images": [
@@ -1094,7 +1094,7 @@ const products = [
       "Artigos de Festa",
       "Outros"
     ],
-    "description": "Kit com diferentes enfeites natalinos impressos em 3D, como renas, bonecos de neve, anjos, flocos de neve e estrelas. Ideal para árvores, guirlandas e decoração de festas.",
+    "description": "Deixe sua árvore de Natal ainda mais encantadora e personalizada! ✨\n\nNosso kit de enfeites natalinos brancos reúne diferentes modelos temáticos, produzidos em impressão 3D, perfeitos para decorar árvores de Natal, guirlandas, arranjos e outros ambientes.\n\n🎁 O kit acompanha diversos modelos, como:\n\n🦌 Renas\n\n⛄ Bonecos de neve\n\n👼 Anjinhos\n\n❄️ Flocos de neve\n\n⭐ Estrelas\n\n🍪 Bonequinhos de Natal\n\n🎄 Outros modelos natalinos\n\n🤍 Cor: Branco\n\n🎄 Material: PLA – impressão 3D\n\n✨ Enfeites leves e delicados\n\n🎁 Enviados em embalagem transparente\n\n🏠 Ideais para decoração de Natal, árvores, festas e ambientes comerciais\n\nTransforme sua decoração com um toque moderno, delicado e artesanal! ❤️🎄\n\n📦 Produto pronto para envio.\n\nOs modelos podem variar conforme a composição do kit e disponibilidade.",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1119,7 +1119,7 @@ const products = [
       "Artigos de Festa",
       "Outros"
     ],
-    "description": "Lanterna decorativa impressa em 3D com luz LED quente. Leve e fácil de pendurar em árvores, guirlandas ou outros ambientes.",
+    "description": " • Lanterna decorativa em impressão 3d\n\n• Luz de led em tom quente \n\n• Ideal para árvore de natal, guirlanda e decoração de ambientes\n\n• Leve, resistente e fácil de pendurar",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1144,7 +1144,7 @@ const products = [
       "Artigos de Cuidados com a Casa",
       "Esponjas e Esfregões"
     ],
-    "description": "Suporte de esponja com design divertido e espaço para ventilação, ideal para manter a pia organizada e a esponja sempre no lugar.",
+    "description": "Deixe sua cozinha mais organizada e cheia de personalidade! ✨\n\nNosso suporte de esponja em impressão 3D possui um design divertido, moderno e funcional, perfeito para manter sua esponja sempre no lugar.\n\n✅ Design criativo e exclusivo\n\n✅ Ajuda a manter a esponja organizada\n\n✅ Estrutura com espaço para ventilação\n\n✅ Pernas articuladas que dão um charme especial\n\n✅ Produzido em impressão 3D\n\n✅ Fácil de limpar e usar\n\n✅ Ideal para pia de cozinha",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1168,7 +1168,7 @@ const products = [
       "Móveis",
       "Prateleiras e Racks"
     ],
-    "description": "Cantoneira impressa em 3D para reforçar e organizar prateleiras. Uma solução simples e prática para diferentes ambientes.",
+    "description": "Praticidade e organização para o dia a dia com esta cantoneira para prateleiras. Um acessório resistente e estável, ideal para ajudar a manter o ambiente mais funcional e bem aproveitado, com um visual simples e fácil de integrar em diferentes espaços.\n\n\n\nDestaques do produto\n\nFeita em plástico, esta cantoneira é resistente e durável para uso regular.\n\nSua proposta de uso estável ajuda a apoiar e organizar a estrutura da prateleira com mais segurança.\n\nTambém é resistente ao calor, oferecendo mais praticidade no dia a dia.\n\n\n\nUso e organização\n\nIdeal para aplicação em prateleiras, é uma solução útil para quem busca uma organização mais prática e funcional.\n\nSeu formato portátil facilita a colocação e o uso em diferentes locais.\n\n\n\nInformações adicionais\n\nPaís de origem: Brasil\n\nNecessita montagem: Sim\n\nMóvel dobrável: Não\n\nProduto personalizado: Não\n\nColeção de antiguidade: Não\n\nQuantidade da embalagem: 1\n\nTipo de garantia: Sem garantia\n\nDimensões do produto (A x L x C), sem a caixa de embalagem: 5 × 4 × 5",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1193,7 +1193,7 @@ const products = [
       "Acessórios Adicionais",
       "Amuletos, Pingentes e Ornamentos"
     ],
-    "description": "Coleção de chaveiros com símbolos de cursos e profissões, incluindo Eletrotécnica, Automação, Mecânica, Edificação, Física, Letras, Química e Teatro.",
+    "description": "COLEÇÃO DE CHAVEIROS DOS CURSOS\n\nDescubra a coleção exclusiva de chaveiros que representam diferentes cursos e profissões, cada um com um símbolo único e cheio de significado. Ideal para estudantes, profissionais e apaixonados por suas áreas de estudo.\n\n\n\nCARACTERÍSTICAS\n\n- Material resistente para uso diário\n\n- Design leve e estiloso, perfeito para presentear ou colecionar\n\n\n\nCURSOS REPRESENTADOS\n\nEletrotécnica, Automação, Mecânica, Edificação, Física, Letras, Química e Teatro.\n\n\n\nRECOMENDAÇÕES\n\nPerfeito para presentear amigos, familiares ou para uso pessoal como símbolo de orgulho pela sua área de estudo ou profissão.",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1217,7 +1217,7 @@ const products = [
       "Organizadores para Casa",
       "Ganchos"
     ],
-    "description": "Gancho decorativo com tema de guerreiras do K-pop, ideal para pendurar chaves, bolsas e mochilas.",
+    "description": "Pensado exclusivamente para as fas de k-pop, ideal para chaveiros, bolsas, mochilas entre outras utilidades",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1241,7 +1241,7 @@ const products = [
       "Banheiros",
       "Outros"
     ],
-    "description": "Gancho para box de vidro que dispensa furos e ferramentas. Ideal para pendurar toalhas, roupões e acessórios no banheiro.",
+    "description": "Organize o seu banheiro com um gancho minimalista para box de vidro, uma solução prática, elegante e sem ferramentas. Feito para manter o espaço limpo e funcional, este suporte ajuda a pendurar itens do dia a dia com mais facilidade e visual mais leve.\n\n\n\nInstalação simples e sem furar\n\nDeslize o gancho sobre a borda superior do painel de vidro do box, sem necessidade de ferramentas ou furar o vidro. É uma opção prática para quem busca uma solução rápida e discreta no banheiro.\n\n\n\nDesign minimalista para o dia a dia\n\nCom uma geometria simples e visual limpo, este suporte foi pensado para integrar-se ao box de vidro com elegância. É ideal para pendurar toalhas, roupões ou buchas diretamente no box, mantendo os itens essenciais sempre ao alcance.\n\n\n\nDupla funcionalidade e versatilidade\n\nOs perfis dos ganchos permitem uso em ambos os lados, facilitando a penduração de itens tanto dentro quanto fora do chuveiro. Uma proposta versátil para quem quer aproveitar melhor o espaço do box.\n\n\n\nDetalhes do produto\n\nMaterial: plástico\n\nNecessita montagem: não\n\nQuantidade da embalagem: 1\n\nDimensões do produto (A x L x C), sem a caixa de embalagem: 4 × 4 × 3,8\n\nTamanho do pacote: 10 cm\n\nLugar de colocação: box vidro",
     "color": "#829b84",
     "icon": "bi-key",
     "images": [
@@ -1266,7 +1266,7 @@ const products = [
       "Fidget",
       "Animais"
     ],
-    "description": "Chaveiro interativo em formato de cestinha com patinhos removíveis. Também pode ser usado como acessório de bolsa ou item colecionável.",
+    "description": "Chaveiro interativo em formato de cestinha com patinhos removíveis. Também pode ser usado como acessório de bolsa, brinquedo antiestresse ou item colecionável.",
     "color": "#d96b3d",
     "icon": "bi-key",
     "images": [
@@ -1322,7 +1322,7 @@ const products = [
       "Acessórios",
       "Organização"
     ],
-    "description": "Suporte compacto para protetor labial com argola para chaveiro, ideal para manter o item sempre à mão.",
+    "description": "Suporte de protetor labial com argola para chaveiro. Uma solução compacta para manter o protetor labial sempre à mão.",
     "color": "#e0a15c",
     "icon": "bi-bag-heart",
     "images": [
@@ -1376,7 +1376,7 @@ const products = [
       "Star Wars",
       "Fidget"
     ],
-    "description": "Chaveiro inspirado em um sabre de luz retrátil, perfeito para fãs de Star Wars e colecionadores.",
+    "description": "Chaveiro inspirado em um sabre de luz com mecanismo retrátil. Uma miniatura divertida para fãs de Star Wars e colecionadores.",
     "color": "#5d8ca5",
     "icon": "bi-stars",
     "images": [
@@ -1402,7 +1402,7 @@ const products = [
       "Articulados",
       "Fidget"
     ],
-    "description": "Cachorrinho Beagle articulado, impresso em uma peça. Pode ser usado como chaveiro, brinquedo ou miniatura.",
+    "description": "Cachorrinho articulado de bolso, impresso em uma peça e com movimento flexível. Pode ser usado como chaveiro, brinquedo ou miniatura colecionável.",
     "color": "#d17d92",
     "icon": "bi-dog",
     "images": [
@@ -1430,7 +1430,7 @@ const products = [
       "Fidget",
       "Engenharia"
     ],
-    "description": "Réplica compacta de um motor rotativo com mecanismo funcional. Basta girar a peça para ativar o movimento.",
+    "description": "Réplica compacta de um motor rotativo com mecanismo funcional. Basta girar a peça para ativar o movimento, criando um chaveiro interativo e diferente.",
     "color": "#d96b3d",
     "icon": "bi-gear",
     "images": [
@@ -1457,7 +1457,7 @@ const products = [
       "Acessórios",
       "Organização"
     ],
-    "description": "Porta-batom compacto com ornamento decorativo e argola para chaveiro, prático para levar na bolsa.",
+    "description": "Porta-batom compacto com ornamento decorativo e argola para chaveiro. Prático para levar seu batom ou item pequeno favorito.",
     "color": "#829b84",
     "icon": "bi-lipstick",
     "images": [
@@ -1535,7 +1535,7 @@ const products = [
       "Geek",
       "Animais"
     ],
-    "description": "Chaveiro inspirado no Pikachu em estilo amigurumi, perfeito para fãs de Pokémon.",
+    "description": "Chaveiro inspirado no Pikachu em estilo amigurumi. Uma opção divertida para fãs de Pokémon e colecionadores.",
     "color": "#5d8ca5",
     "icon": "bi-lightning",
     "images": [
@@ -1561,7 +1561,7 @@ const products = [
       "EDC",
       "Fidget"
     ],
-    "description": "Chaveiro tático com clipe integrado e textura para facilitar a pegada. Pode ser preso ao bolso, cinto ou mochila.",
+    "description": "Chaveiro de uso diário, resistente, com clipe integrado, textura que facilita a pegada e visual tático. Pode ser preso ao bolso, cinto ou mochila.",
     "color": "#d17d92",
     "icon": "bi-tools",
     "images": [
@@ -1589,7 +1589,7 @@ const products = [
       "Anime",
       "Geek"
     ],
-    "description": "Chaveiro inspirado no chapéu de palha do Monkey D. Luffy, perfeito para fãs de One Piece.",
+    "description": "Chaveiro inspirado no chapéu de palha do Monkey D. Luffy, perfeito para fãs de One Piece e colecionadores de anime.",
     "color": "#d96b3d",
     "icon": "bi-sun",
     "images": [
@@ -1615,7 +1615,7 @@ const products = [
       "Nintendo",
       "Geek"
     ],
-    "description": "Coleção de chaveiros inspirados no universo de Super Mario, ideal para fãs da Nintendo e colecionadores.",
+    "description": "Coleção de chaveiros inspirados no universo Super Mario, com opções divertidas para fãs da Nintendo e colecionadores.",
     "color": "#829b84",
     "icon": "bi-controller",
     "images": [
@@ -1667,7 +1667,7 @@ const products = [
       "Nintendo",
       "Geek"
     ],
-    "description": "Chaveiro em formato de estrela inspirado em Super Mario Bros., ideal para fãs da Nintendo.",
+    "description": "Chaveiro em formato de estrela inspirado em Super Mario Bros. Uma peça colorida para fãs da Nintendo.",
     "color": "#9b7bb0",
     "icon": "bi-star",
     "images": [
@@ -1693,7 +1693,7 @@ const products = [
       "Séries",
       "Geek"
     ],
-    "description": "Chaveiro inspirado na série Stranger Things, perfeito para fãs e colecionadores.",
+    "description": "Chaveiro inspirado na série Stranger Things, ideal para fãs da produção e para completar uma coleção geek.",
     "color": "#5d8ca5",
     "icon": "bi-tv",
     "images": [
@@ -1719,7 +1719,7 @@ const products = [
       "Nintendo",
       "Geek"
     ],
-    "description": "Chaveiro inspirado no bloco de interrogação de Super Mario, com o visual amarelo característico.",
+    "description": "Chaveiro inspirado no bloco de pergunta de Super Mario, reconhecido pelo visual amarelo e pelo símbolo de interrogação.",
     "color": "#d17d92",
     "icon": "bi-question-square",
     "images": [
@@ -1798,7 +1798,7 @@ const products = [
       "Presentes",
       "Acessórios"
     ],
-    "description": "Chaveiro em formato de barra de chocolate, divertido para usar nas chaves, mochila ou como lembrancinha.",
+    "description": "Chaveiro em formato de barra de chocolate, uma peça divertida para usar nas chaves, mochila ou como lembrancinha.",
     "color": "#e0a15c",
     "icon": "bi-cup-hot",
     "images": [
@@ -1931,7 +1931,7 @@ const products = [
       "Geek",
       "Games"
     ],
-    "description": "Conjunto de chaveiros inspirado no universo de Grand Theft Auto, ideal para fãs e colecionadores.",
+    "description": "Kit com 10 pingentes inspirados no universo de Grand Theft Auto, ideal para fãs e colecionadores.",
     "color": "#9b7bb0",
     "icon": "bi-music-note-beamed",
     "images": [
@@ -2009,7 +2009,7 @@ const products = [
       "Geek",
       "Games"
     ],
-    "description": "Chaveiro com o símbolo do PlayStation, ideal para fãs de videogames.",
+    "description": "Chaveiro com o símbolo do PlayStation, ideal para fãs de videogames. O modelo não exige suportes para impressão.",
     "color": "#d96b3d",
     "icon": "bi-lightning",
     "images": [
@@ -2503,7 +2503,7 @@ const products = [
       "Utilidades",
       "Organização"
     ],
-    "description": "Chaveiro que também funciona como suporte compacto para smartphone.",
+    "description": "Kit com 4 chaveiros que também funcionam como suportes compactos para smartphone.",
     "color": "#829b84",
     "icon": "bi-phone",
     "images": [
@@ -2581,7 +2581,7 @@ const products = [
       "Geek",
       "Games"
     ],
-    "description": "Chaveiro inspirado no universo Pokémon, ideal para fãs e colecionadores.",
+    "description": "Kit com os três Pokémon iniciais e o Pikachu, perfeito para fãs e colecionadores. Pode ser usado como chaveiro, pingente ou acessório para mochila.",
     "color": "#5d8ca5",
     "icon": "bi-controller",
     "images": [
