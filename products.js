@@ -1276,7 +1276,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USe3a7f1c8bdc5de/design/2024-11-03_dbbff71e043d3.jpeg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1304,7 +1304,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US81cb12caa6382f/design/2025-09-07_ce35a69ef4e35.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1329,7 +1329,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US599edd90ba6660/design/2025-05-24_d02f296fadf3e.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1357,7 +1357,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US6c9bf513c269ce/design/2025-02-09_288ebf28309dc.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1383,7 +1383,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US9df16be4fd1c6f/design/2024-06-06_88d35cea01d9e.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1411,7 +1411,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US127bbb512ec548/design/2024-12-18_1bd3262ca04bd.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1439,7 +1439,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US7f7d2bb6f0290a/design/2024-10-08_b2da5eeef93dd.jpeg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1464,7 +1464,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US73d38e417549e5/design/34fd59c8387644de.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1490,7 +1490,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US820d9342f3ea7b/design/2025-04-29_195bb2cc062308.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1516,7 +1516,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US945c1d3206b829/design/2025-10-06_57df5fe2299b1.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1542,7 +1542,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US9d965528633ef4/design/2023-12-13_968757b180c18.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1570,7 +1570,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US1fe994ee13721a/design/2025-02-17_406803b3c50bf.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1596,7 +1596,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US33fbf7099c5587/design/2024-04-30_fd00003eb6fb6.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1622,7 +1622,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USbf737b5602517e/design/2025-12-01_2e91e0aacb709.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1648,7 +1648,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US97116991d738d3/design/2025-08-01_618525a1847ab.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1674,7 +1674,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US813059708258c0/design/6eb70cd93a52d12e.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1700,7 +1700,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US7a34f94a21b3e5/design/ecb47749e07e1eeb.png"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1727,7 +1727,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USe4d940380283be/design/2024-11-07_6f4189473672d.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1753,7 +1753,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US177145bf6ee243/design/2024-12-03_3982a4768830e.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1779,7 +1779,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US2cf76a1338333/design/2025-07-23_65f2258f903b4.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1805,7 +1805,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/USf6576061ab9df5/design/2024-12-30_70a84a6656cce.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1831,7 +1831,7 @@ const products = [
       "https://makerworld.bblmw.com/makerworld/model/US458a7dafe8ced/design/2025-03-18_b5c2ade735d4e8.jpg"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1858,7 +1858,7 @@ const products = [
       "https://media.printables.com/media/prints/d04639f1-3790-4694-b24f-ad9822794993/images/14151754_bb29e513-c44a-4a26-86b1-aba62d4bfd26_3221aeb9-539d-40a3-a645-03eac3b2a2ed/thumbs/inside/320x240/png/0570157d-3d6b-476e-88b3-5bbe8e7c9db5.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 8",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1885,7 +1885,7 @@ const products = [
       "https://media.printables.com/media/prints/7c2ff7ca-54f7-43c4-981e-b561291dcd0c/images/13201442_1b42520b-ad81-4a92-97cc-e8c900863e8a_4f71462f-f5e4-4193-bd57-c7b821c6e95a/thumbs/inside/320x240/jpg/20260621_210946.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1912,7 +1912,7 @@ const products = [
       "https://media.printables.com/media/prints/447733/images/3696632_b72c4a34-dbcc-4626-865b-c89c93be5851/thumbs/inside/320x240/jpg/pxl_20230410_021906579.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1938,7 +1938,7 @@ const products = [
       "https://media.printables.com/media/prints/3e190166-bb65-4939-9b5b-f6d7782490fc/images/14106877_8ad07d5a-ce04-4099-83b7-46053981a717_ee7adaeb-80fa-4ec5-baf2-11a66d842b3f/thumbs/inside/320x240/webp/f6b8b8dff85db919.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 11",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1964,7 +1964,7 @@ const products = [
       "https://media.printables.com/media/prints/1007376/images/7661708_17d5d44b-d476-41d3-8f94-41c70e239fe9_2d66b769-949a-4afd-a46f-0af22a2f0d11/thumbs/inside/320x240/jpg/spotify.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 20",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -1990,7 +1990,7 @@ const products = [
       "https://media.printables.com/media/prints/86195/images/913594_dc472a7a-fb67-47b2-83b5-db52c2b7a6f5/thumbs/inside/320x240/jpeg/large_display_size_86195.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 6",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2016,7 +2016,7 @@ const products = [
       "https://media.printables.com/media/prints/340521/images/2906857_9ddb21a6-675d-4f62-8600-fdb99c11f26f/thumbs/inside/320x240/jpg/1.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2042,7 +2042,7 @@ const products = [
       "https://media.printables.com/media/prints/349995/images/2974314_e7822aa1-7717-4eb0-9c60-acd91158e244/thumbs/inside/320x240/png/2.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2068,7 +2068,7 @@ const products = [
       "https://media.printables.com/media/prints/36373/images/358939_1f932175-38c9-4a1f-ada0-8d0cf6d3c19f/thumbs/inside/320x240/jpg/684f86f4c706a944e0c6187cce8a2744_display_large_36.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2094,7 +2094,7 @@ const products = [
       "https://media.printables.com/media/prints/493399/images/5725479_1cd0630f-03fa-427e-88a5-6b2d3551d2f9_e41a44e5-70ed-4eb8-928d-83d8fd6bd700/thumbs/inside/320x240/png/bild.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 20",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2120,7 +2120,7 @@ const products = [
       "https://media.printables.com/media/prints/15ebf9e4-8ea2-4c69-9dd3-60447576e1df/images/9844711_52553094-9d09-4534-be0e-2cfd63648a5a_f4791b9c-98aa-4e48-82e6-6dedeee89524/thumbs/inside/320x240/jpeg/file_001-1.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2146,7 +2146,7 @@ const products = [
       "https://media.printables.com/media/prints/893619/images/6839480_ebf3892f-166c-4039-88b3-df76595d6335_4867c5e2-fff1-4261-b8d7-e0de8c1953f0/thumbs/inside/320x240/png/otter3.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2172,7 +2172,7 @@ const products = [
       "https://media.printables.com/media/prints/1156216/images/8720675_49e11493-a8fc-4fdb-98c4-beca4fa4e9e7_92aeff41-f675-4f2b-8a51-25035e2ab45d/thumbs/inside/320x240/jpeg/whatsapp-image-2025-01-19-at-151554-1.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2198,7 +2198,7 @@ const products = [
       "https://media.printables.com/media/prints/102032/images/1025755_e6e3c38e-e9a2-4758-a974-6d6160a9d99f/thumbs/inside/320x240/jpg/20201211_231522.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2224,7 +2224,7 @@ const products = [
       "https://media.printables.com/media/prints/394484/images/3293321_60e42a60-ff92-4bbe-a0c8-09ca39813d8b/thumbs/inside/320x240/jpg/img_0698.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 10",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2250,7 +2250,7 @@ const products = [
       "https://media.printables.com/media/prints/109925/images/1086110_3288aa02-dad7-44c1-a9b4-6f8fcfde3e5d/thumbs/inside/320x240/png/f1_keychain_by_victor_francey.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2276,7 +2276,7 @@ const products = [
       "https://media.printables.com/media/prints/163986/images/1523485_217a59ba-4a8a-46c3-9362-3c0d4fdd2ce0/thumbs/inside/320x240/jpg/img_20211220_164220.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2302,7 +2302,7 @@ const products = [
       "https://media.printables.com/media/prints/615940/images/4888048_716fd5cb-258e-47bd-b9a1-7bf07c018773_7b29cbcd-d5df-4f77-9680-ec17d8685089/thumbs/inside/320x240/jpg/sun.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2328,7 +2328,7 @@ const products = [
       "https://media.printables.com/media/prints/881358/images/6756647_ceb291ed-84d5-4c39-8d54-ed533285bce9_5c7d2c2d-73a7-406f-9a91-21f7d7360765/thumbs/inside/320x240/jpg/20240516_024810_edit.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2354,7 +2354,7 @@ const products = [
       "https://media.printables.com/media/prints/831947/images/6412623_d055893f-2f8e-4328-a654-21f7c7a84d49_ffedfeda-52a0-4b75-8782-76a142843be2/thumbs/inside/320x240/png/20240404_122018_edit2.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2380,7 +2380,7 @@ const products = [
       "https://media.printables.com/media/prints/389360/images/3256566_249e38b5-6e81-4f54-84f0-7b4281fd011a/thumbs/inside/320x240/jpg/photo_2023-02-04_21-02-45.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2406,7 +2406,7 @@ const products = [
       "https://media.printables.com/media/prints/774333/images/6018552_0ad69607-ae84-40ff-beac-d3296547aa7c_dc828236-3f43-44f0-9177-add556ad564f/thumbs/inside/320x240/jpeg/img_0248.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2432,7 +2432,7 @@ const products = [
       "https://media.printables.com/media/prints/1155048/images/8712142_617ea219-8db8-42f2-ae7c-4295e61d6d59_8caf4a11-89f6-45af-8651-1271c50a2ff2/thumbs/inside/320x240/jpg/whatsapp-image-2025-01-18-at-144204_36b5eced.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2458,7 +2458,7 @@ const products = [
       "https://media.printables.com/media/prints/ef9fe469-d4ae-45c7-9992-d589877222c8/images/12476014_53ef1a56-f132-40f3-a624-fce09e02c370_7dd42bc5-0c2b-44ac-8548-b9ffb7f79e37/thumbs/inside/320x240/png/gemini_generated_image_ofmj04ofmj04ofmj.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2484,7 +2484,7 @@ const products = [
       "https://media.printables.com/media/prints/1027191/images/7797685_eca0956d-e08a-4b56-b09d-347456485baa_a731d5ae-875e-4bde-9fd8-6705203c5674/thumbs/inside/320x240/jpg/engine-keychainv8.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2510,7 +2510,7 @@ const products = [
       "https://media.printables.com/media/prints/12225/images/107916_5de1f3f7-000b-48c6-bd83-157aef0d6a6b/thumbs/inside/320x240/jpg/20160531_094016_s_12225.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 11",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2536,7 +2536,7 @@ const products = [
       "https://media.printables.com/media/prints/550636/images/4424184_2f706bd7-5eaf-443a-9f44-d44f7652be4f/thumbs/inside/320x240/jpg/20230812_134409.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2562,7 +2562,7 @@ const products = [
       "https://media.printables.com/media/prints/84ba1096-e1f6-432d-aba3-8788c7d9a446/images/12456481_409b3764-3f23-4239-a6f1-6ec1f8e59969_9722962d-dd9f-4d3d-9644-9d0dc77cb793/thumbs/inside/320x240/png/gemini_generated_image_vcwms8vcwms8vcwm.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 11",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2588,7 +2588,7 @@ const products = [
       "https://media.printables.com/media/prints/490609/images/4002099_eb8a267e-d472-4e77-b188-f59debe698b0/thumbs/inside/320x240/jpg/eyJyb3RhdGVBbmdsZSI6MjcwfQ==/pxl_20230526_135604279-1.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 11",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2615,7 +2615,7 @@ const products = [
       "https://media.printables.com/media/prints/288657/images/2542753_fdcf15f9-93ba-448d-b7fb-e7e507766f5f/thumbs/inside/320x240/jpg/large_display_img_1449_288657.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
@@ -2641,7 +2641,7 @@ const products = [
       "https://media.printables.com/media/prints/20299ccb-8c2b-47cc-87f2-c406e5e631f6/images/13743714_3d2061f3-e3e3-401d-95bc-015fd483416a_e7e0b953-ff2f-457f-9cbf-7bea4fd1f99d/thumbs/inside/320x240/png/chatgpt-image-sep-5-2026-09_49_40-pm.webp"
     ],
     "prices": {
-      "whatsapp": "",
+      "whatsapp": "R$ 5",
       "mercadoLivre": "",
       "shopee": ""
     },
